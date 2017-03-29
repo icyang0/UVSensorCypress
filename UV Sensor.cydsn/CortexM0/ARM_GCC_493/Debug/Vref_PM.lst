@@ -1,0 +1,1165 @@
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 2
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"Vref_PM.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.section	.gnu.lto_.profile.1813baa3,"",%progbits
+  17 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006\0166\000\000\212\000\027"
+  17      60606061 
+  17      80004606 
+  17      0E360000 
+  17      8A0017
+  18              		.text
+  19              		.section	.gnu.lto_.jmpfuncs.1813baa3,"",%progbits
+  20 0000 789C6366 		.ascii	"x\234cf\300\0168\2404\023\024\003\000\0018\000\020"
+  20      C00E38A0 
+  20      34131403 
+  20      00013800 
+  20      10
+  21              		.text
+  22              		.section	.gnu.lto_.inline.1813baa3,"",%progbits
+  23 0000 789C6366 		.ascii	"x\234cf\300\0164\2404\023\003\003+\013#\003\023\313"
+  23      C00E34A0 
+  23      34130303 
+  23      2B0B2303 
+  23      13CB
+  24 0012 027906B6 		.ascii	"\002y\006\266\005\362L\0201\014!\006\000G\026\003\\"
+  24      05F24C10 
+  24      310C2106 
+  24      00471603 
+  24      5C
+  25              		.text
+  26              		.section	.gnu.lto_.pureconst.1813baa3,"",%progbits
+  27 0000 789C6366 		.ascii	"x\234cf```e\200\000&\006)&)\000\000\373\000A"
+  27      60606065 
+  27      80002606 
+  27      29262900 
+  27      00FB0041 
+  28              		.text
+  29              		.section	.gnu.lto_Vref_Sleep.1813baa3,"",%progbits
+  30 0000 789C654F 		.ascii	"x\234eO=HBQ\024>\337yO\223\\\242\321!\210\006\227lj"
+  30      3D484251 
+  30      143EDF79 
+  30      4F935CA2 
+  30      D1218806 
+  31 0017 6E69680A 		.ascii	"nih\012\204\240I\220\260\327\230$5\212\357\305+$\250"
+  31      84A04990 
+  31      B0D79824 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 2
+
+
+  31      358AEFC5 
+  31      2B24A8
+  32 002a A429281B 		.ascii	"\244)(\033\202\310\322\024Zkx\271\006E4\010\016E`PM"
+  32      82C8D214 
+  32      5A6B78B9 
+  32      06453408 
+  32      0E456050 
+  33 003f 9954BC44 		.ascii	"\231T\274D\355\\]\202.\\\316=\347|\367\373\321\350\377"
+  33      ED5C5D82 
+  33      2E5CCE3D 
+  33      E77CF7FB 
+  33      D1E8FF
+  34 0052 09C89D00 		.ascii	"\011\310\235\000\321\210Th\004\316\334\020Y>\006\324"
+  34      D1885468 
+  34      04CEDC10 
+  34      593E06D4 
+  35 0062 83402946 		.ascii	"\203@)F\012\257\\gd\234\374\256?xd\232\346{\371\332"
+  35      0AAF5C67 
+  35      649CFCAE 
+  35      3F78649A 
+  35      E67BF9DA 
+  36 0076 0A3B7099 		.ascii	"\012;p\231\250\301=\036\034#H\002\252\333\255\212\337"
+  36      A8C13D1E 
+  36      1C234802 
+  36      AADBAD8A 
+  36      DF
+  37 0087 6B0B68A0 		.ascii	"k\013h\240\267C\016^\341\247\322\240cv:\215\342\325"
+  37      B7430E5E 
+  37      E1A7D2A0 
+  37      63763A8D 
+  37      E2D5
+  38 0099 0F742697 		.ascii	"\017t&\227eV\223\275RyfVU\253\242\374\265\321\376\354"
+  38      655693BD 
+  38      52796656 
+  38      55ABA2FC 
+  38      B5D1FEEC 
+  39 00ad 535FBE59 		.ascii	"S_\276YI^\254mV\372_\330eN\257gL]\011<\326n\357|\335"
+  39      495EAC6D 
+  39      56FA5FD8 
+  39      654EAF67 
+  39      4C5D093C 
+  40 00c6 11A9F6ED 		.ascii	"\021\251\366\355\360r)\213=\313\0267\032N\020\300)$"
+  40      F072298B 
+  40      3DCB1637 
+  40      1A4E10C0 
+  40      2924
+  41 00d8 13F2C882 		.ascii	"\023\362\310\202\252X\335y\032Rt\202<\270\337*r\262"
+  41      AA58DD79 
+  41      1A527482 
+  41      3CB8DF2A 
+  41      72B2
+  42 00ea 69A64D9F 		.ascii	"i\246M\237\313zKy\373K\247w\333\234e\357C\361\231\012"
+  42      CB7A4B79 
+  42      FB4BA777 
+  42      DB9C65EF 
+  42      43F1990A 
+  43 00fe E5410149 		.ascii	"\345A\001I\234)B\331\265\013\333\347\336P^\2429\243"
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 3
+
+
+  43      9C2942D9 
+  43      B50BDBE7 
+  43      DE505EA2 
+  43      39A3
+  44 0110 2E7B5114 		.ascii	".{Q\024\340G7>J\010\211az\200\3454=JOMk\222Qb\011bx"
+  44      E047373E 
+  44      4A088961 
+  44      7A80E534 
+  44      3D4A4F4D 
+  45 012b CA583412 		.ascii	"\312X4\022s\313\306|t&\276\222\210\031\221\360L|r<2"
+  45      73CBC67C 
+  45      7426BE92 
+  45      881991F0 
+  45      4C7C723C 
+  46 0140 9B3016A2 		.ascii	"\2330\026\242\341\351\261\030\375\002\256\312\177\222"
+  46      E1E9B118 
+  46      FD02AECA 
+  46      7F92
+  47              		.text
+  48              		.section	.gnu.lto_Vref_Wakeup.1813baa3,"",%progbits
+  49 0000 789C6366 		.ascii	"x\234cf\300\004R@l\315\310\300\240\014\244\031\231\031"
+  49      C0045240 
+  49      6CCDC8C0 
+  49      A00CA419 
+  49      9919
+  50 0012 1899269C 		.ascii	"\030\231&\234c`h\344`bd\0041\030\030\031\352\231\030"
+  50      636068E4 
+  50      60626404 
+  50      31181819 
+  50      EA9918
+  51 0025 EB195F32 		.ascii	"\353\031_2}db\234p`\365\014n\365\245\015\015\015\037"
+  51      7D64629C 
+  51      7060F50C 
+  51      6EF5A50D 
+  51      0D0D1F
+  52 0038 9AB64AB4 		.ascii	"\232\266J\264J\374db`\370\314\0041\206q9\243:\003P\315"
+  52      4AFC6462 
+  52      60F8CC04 
+  52      31867139 
+  52      A33A0350 
+  53 004d C796BFD7 		.ascii	"\307\226\277\327\271\331Z\200j\004 r\214+\030\331\200"
+  53      B9D95A80 
+  53      6A042072 
+  53      8C2B18D9 
+  53      80
+  54 005e C633AC17 		.ascii	"\3063\254\027:\320\360\377\377\347+\023_\3503\26201"
+  54      3AD0F0FF 
+  54      FFE72B13 
+  54      5FE833B2 
+  54      3031
+  55 0070 FC64020A 		.ascii	"\374d\002\012>\001*\000\331\362\224\211\011D3\337bl"
+  55      3E012A00 
+  55      D9F29489 
+  55      094433DF 
+  55      626C
+  56 0082 DAF6F1EA 		.ascii	"\332\366\361\352Cv\220\236\357L +\347]\356[\307T\373"
+  56      4376909E 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 4
+
+
+  56      EF4C202B 
+  56      E75DEE5B 
+  56      C754FB
+  57 0095 BBA1A381 		.ascii	"\273\241\243\201\343'\023\323_\220\201@\321\373O\316"
+  57      E32713D3 
+  57      5F908140 
+  57      D1FB4FCE 
+  58 00a5 5FE478C1 		.ascii	"_\344x\301\004\024\001sW4\266\314a\234\3138\273\261"
+  58      04140173 
+  58      5734B6CC 
+  58      619CCB38 
+  58      BBB1
+  59 00b7 01A48A99 		.ascii	"\001\244\212\231q%c-\343*F)\260\334\2775\375\233\330"
+  59      7125632D 
+  59      E32A4629 
+  59      B0DCBF35 
+  59      FD9BD8
+  60 00ca 74B57F32 		.ascii	"t\265\1772\2610\256\006\252\371\004v.\343\032F]\206"
+  60      B130AE06 
+  60      AAF90476 
+  60      2EE31A46 
+  60      5D86
+  61 00dc 5B8C8726 		.ascii	"[\214\207&=\024\001Y\005T\266\273\265\367:\027\310D"
+  61      3D140159 
+  61      0554B6BB 
+  61      B5F73A17 
+  61      C844
+  62 00ee D68EB609 		.ascii	"\326\216\266\011\015,(\226\260\202\015z\265hO!\310\216"
+  62      0D2C2896 
+  62      B0820D7A 
+  62      B5684F21 
+  62      C88E
+  63 0100 96C60392 		.ascii	"\226\306\003\222?\231\330\030\3272J1\256\003Y\302\270"
+  63      3F99D818 
+  63      D7324A31 
+  63      AE0359C2 
+  63      B8
+  64 0111 1E682ED0 		.ascii	"\036h.\320\265\014\367\030\033\017\374w\003\031\010"
+  64      B50CF718 
+  64      1B0FFC77 
+  64      031908
+  65 0120 B2E309D0 		.ascii	"\262\343\011\320\203@?\001\355StO\315K-J,IM\211\017"
+  65      83403F01 
+  65      ED53744F 
+  65      CD4B2D4A 
+  65      2C494D89 
+  66 0135 CE2F2D4A 		.ascii	"\316/-JN\215\011\010\316w6\211\011+JM\213\017\360\325"
+  66      4E8D0908 
+  66      CE773689 
+  66      092B4A4D 
+  66      8B0FF0D5 
+  67 0149 4B660000 		.ascii	"Kf\000\000\356>}\002"
+  67      EE3E7D02 
+  68              		.text
+  69              		.section	.gnu.lto_.symbol_nodes.1813baa3,"",%progbits
+  70 0000 789C6366 		.ascii	"x\234cf``\320d\200\002&\306z\006\206\011\347\030\030"
+  70      6060D064 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 5
+
+
+  70      800226C6 
+  70      7A068609 
+  70      E71818
+  71 0013 EAEB19E6 		.ascii	"\352\353\031\346-\340``e`X\300T\317\314\304T\317\210"
+  71      2DE06060 
+  71      656058C0 
+  71      54CFCCC4 
+  71      54CF88
+  72 0026 2CCC0000 		.ascii	",\314\000\000\310\"\011\240"
+  72      C82209A0 
+  73              		.text
+  74              		.section	.gnu.lto_.refs.1813baa3,"",%progbits
+  75 0000 789C6366 		.ascii	"x\234cf``\340f\200\000F\006FF&F& \311\000\000\001l\000"
+  75      6060E066 
+  75      80004606 
+  75      46462646 
+  75      2620C900 
+  76 0018 19       		.ascii	"\031"
+  77              		.text
+  78              		.section	.gnu.lto_.decls.1813baa3,"",%progbits
+  79 0000 789C8D54 		.ascii	"x\234\215TmHSa\024\276\347\336}y]\032\011\025\376\010"
+  79      6D485361 
+  79      14BEE7DE 
+  79      7D795D1A 
+  79      0915FE08 
+  80 0014 5D3022C4 		.ascii	"]0\"\304\037\026\376\315\364GP\024\243i\375(0]\267\262"
+  80      1F16FECD 
+  80      F4475014 
+  80      A369FD28 
+  80      305DB7B2 
+  81 0028 42876E3F 		.ascii	"B\207n?$\210W\327\207fP\216\024#\250\205\246\246k~d"
+  81      248857D7 
+  81      8766508E 
+  81      1423A885 
+  81      A6A66B7E 
+  82 003d F3636ACB 		.ascii	"\363cj\313\217\332D\005\305\250(*\213`\320\2176\210"
+  82      8FDA4405 
+  82      C5A8282A 
+  82      8B60D08F 
+  82      3688
+  83 004f BEC3CEFB 		.ascii	"\276\303\316\373\336\315MQ\351\205s\337s\356}\236\347"
+  83      DECD4D51 
+  83      E98573DF 
+  83      73EE7D9E 
+  83      E7
+  84 0060 9CF73D67 		.ascii	"\234\367=g\0238\216\363\242-\340:\247\3408\037\372\002"
+  84      13388EF3 
+  84      A22DE03A 
+  84      A7E0381F 
+  84      FA02
+  85 0072 9A818B2E 		.ascii	"\232\201\213.\036\315\211\346B\003\2641n\351\242\337"
+  85      1ECD89E6 
+  85      4203B431 
+  85      6EE9A2DF 
+  86 0082 D4614E2A 		.ascii	"\324aN*\232\037\355\031\332DX\333\035\346y\302\273s"
+  86      9A1FED19 
+  86      DA4458DB 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 6
+
+
+  86      1DE679C2 
+  86      BB73
+  87 0094 151DD732 		.ascii	"\025\035\3272\235X~D3Vg\265zB<\364\273\276N\305\007"
+  87      9D587E44 
+  87      335667B5 
+  87      7A423CF4 
+  87      BBBE4EC5 
+  88 00a9 78481053 		.ascii	"xH\020Sh8`\3675\2500\324\212\012\032z~\177\230Sl\252"
+  88      683860F7 
+  88      35A830D4 
+  88      8A0A1A7A 
+  88      7E7F9853 
+  89 00bf 23B8AEDB 		.ascii	"#\270\256\333\310z\005\0306B\013$C+$\243\342}\330\204"
+  89      C87A0518 
+  89      36420B24 
+  89      432B24A3 
+  89      E27DD884 
+  90 00d3 CF230A59 		.ascii	"\317#\012Y\351^\300[\255\024x\240~c\303\374\234\230"
+  90      E95EC05B 
+  90      AD1478A0 
+  90      7E63C3FC 
+  90      9C98
+  91 00e5 D686B42A 		.ascii	"\326\206\264*\342\015@4]\363\233\327u\252\224\333\304"
+  91      E20D4034 
+  91      5DF39BD7 
+  91      75AA94DB 
+  91      C4
+  92 00f6 D11974F6 		.ascii	"\321\031t\366\275\322\022\037\361.,\354bR\320\006\002"
+  92      BDD2121F 
+  92      F12E2CEC 
+  92      6252D006 
+  92      02
+  93 0107 B4431A45 		.ascii	"\264C\032ER\237Q\300\011)T\357F\257o\235\220\311\264"
+  93      529F51C0 
+  93      092954EF 
+  93      46AF6F9D 
+  93      90C9B4
+  94 011a 7F4D5F3E 		.ascii	"\177M_>\315\024\034\255\215*\231\317\350\017b\350\017"
+  94      CD141CAD 
+  94      8D2A99CF 
+  94      E80F62E8 
+  94      0F
+  95 012b 227417A3 		.ascii	"\"t\027\243w>n\257\216c\207<F\025\276_\014V\213\354"
+  95      773E6EAF 
+  95      8E63873C 
+  95      4615BE5F 
+  95      0C568BEC 
+  96 013f 905A1ACE 		.ascii	"\220Z\032\316v\330\314B6\323\236\177\371bP-\3441\277"
+  96      76D8CC42 
+  96      36D39E7F 
+  96      F962502D 
+  96      E431BF
+  97 0152 A2D97355 		.ascii	"\242\331sU\215\250T\221U\376\356\326\317\2468\026\322"
+  97      8DA85491 
+  97      55FEEED6 
+  97      CFA63816 
+  97      D2
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 7
+
+
+  98 0163 0948C457 		.ascii	"\011H\304W\274g\304>#\202^l\302s\006\007G]\373l$\013"
+  98      BC67C43E 
+  98      23825E6C 
+  98      C2730607 
+  98      475DFB6C 
+  99 0179 DC2042F7 		.ascii	"\334 B\367b)\214MW\025!\225\364\016\343|\011\334\342"
+  99      62298C4D 
+  99      57152195 
+  99      F40EE37C 
+  99      09DCE2
+ 100 018c 15C223D0 		.ascii	"\025\302#\320#\202a\341!\276\354\301\227\230\253\255"
+ 100      238261E1 
+ 100      21BEECC1 
+ 100      9798ABAD 
+ 101 019c 767C4829 		.ascii	"v|H)\234ge|yK\366\012\227\200\371\337&C\325 \\\223\203"
+ 101      9C67657C 
+ 101      794BF60A 
+ 101      9780F9DF 
+ 101      2643D520 
+ 102 01b3 A6BA7AA7 		.ascii	"\246\272z\247\222\235B\203\241r\342\317X\275\026tI:"
+ 102      929D4283 
+ 102      A172E2CF 
+ 102      58BD1674 
+ 102      493A
+ 103 01c5 9DDE81B9 		.ascii	"\235\336\201\271\202}\237\354\0117\211c\004XE\275X\321"
+ 103      827D9FEC 
+ 103      09378963 
+ 103      045845BD 
+ 103      58D1
+ 104 01d7 20244533 		.ascii	" $E3o\243\015\334\216\017\256\226u\227\220,\013\007"
+ 104      6FA30DDC 
+ 104      8E0FAE96 
+ 104      7597902C 
+ 104      0B07
+ 105 01e9 1DF8B993 		.ascii	"\035\370\271\223\365\226\202\261,x\214\025z@\007Ch\303"
+ 105      F59682B1 
+ 105      2C788C15 
+ 105      7A400743 
+ 105      68C3
+ 106 01fb A06367A1 		.ascii	"\240cg\241\372\216\311n\222uA`\342}+\212\267P\035\031"
+ 106      FA8EC96E 
+ 106      92754160 
+ 106      E27D2B8A 
+ 106      B7501D19 
+ 107 020f 3B15C5F6 		.ascii	";\025\305\366/\307\016\300b%\364\036\337\37334\024\300"
+ 107      2FC70EC0 
+ 107      6225F41E 
+ 107      DFFB3334 
+ 107      14C0
+ 108 0221 457A1919 		.ascii	"Ez\031\031\035>43\334\253\206$\375J\365\302\023,s\255"
+ 108      1D3E3433 
+ 108      DCAB8624 
+ 108      FD4AF5C2 
+ 108      132C73AD 
+ 109 0235 9299F4B4 		.ascii	"\222\231\364\264\012\300\213\240\256h{h\246\310l>\017"
+ 109      0AC08BA0 
+ 109      AE687B68 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 8
+
+
+ 109      A6C86C3E 
+ 109      0F
+ 110 0246 FCEAE185 		.ascii	"\374\352\341\205\336\360U\327\014,\2503{H\225c3\343"
+ 110      DEF055D7 
+ 110      0C2CA833 
+ 110      7B489563 
+ 110      33E3
+ 111 0258 5041DAA1 		.ascii	"PA\332\241\241\360>,\357\214\347\276\361<q\353]B\034"
+ 111      A1F03E2C 
+ 111      EF8CE7BE 
+ 111      F13C71EB 
+ 111      5D421C
+ 112 026b 41E7CB20 		.ascii	"A\347\313 T\020G%!t*\031qDN\026s\265#t8a\02429\030\203"
+ 112      54104725 
+ 112      21742A19 
+ 112      71444E16 
+ 112      73B52374 
+ 113 0286 AD285065 		.ascii	"\255(Pew\177V\012\243r\342\331\272\320\035\215\210\343"
+ 113      777F560A 
+ 113      A372E2D9 
+ 113      BAD01D8D 
+ 113      88E3
+ 114 0298 62FBDF71 		.ascii	"b\373\337q\341k~\004B\011 \352W&\371V \311\023k\373"
+ 114      E16B7E04 
+ 114      420920EA 
+ 114      5726F956 
+ 114      20C9136B 
+ 115 02ad A8F513A2 		.ascii	"\250\365\023\242\201g\330\227\361\350\235<\005q\361"
+ 115      8167D897 
+ 115      F1E89D3C 
+ 115      0571F1
+ 116 02bc 4EFAFC5D 		.ascii	"N\372\374]\037x\355\225\350\3602p\364/\300\017Z\366"
+ 116      1F78ED95 
+ 116      E8F03270 
+ 116      F42FC00F 
+ 116      5AF6
+ 117 02ce 3BC31DD1 		.ascii	";\303\035\321\276\331\232\277\353\226\240\2751\255\346"
+ 117      BED99ABF 
+ 117      EB96A0BD 
+ 117      31ADE6
+ 118 02dd 60228CA6 		.ascii	"`\"\214\246\273x\250T:\221o<+If\325\236\003y)9\\\352"
+ 118      BB78A854 
+ 118      3A916F3C 
+ 118      2B4966D5 
+ 118      9E037929 
+ 119 02f4 1EA9582A 		.ascii	"\036\251X*-\260H\307\363\215%\326R\223t\324`,\311\331"
+ 119      2DB048C7 
+ 119      F38D25D6 
+ 119      529374D4 
+ 119      602CC9D9 
+ 120 0308 7994010D 		.ascii	"y\224\001\015\373\323M\\<s\017\027\234\221\254\346\015"
+ 120      FBD34D5C 
+ 120      3C730F17 
+ 120      9C91ACE6 
+ 120      0D
+ 121 0319 CCCFDE9D 		.ascii	"\314\317\336\235\263/\317\220o\314=\230\227\223\253"
+ 121      B32FCF90 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 9
+
+
+ 121      6FCC3D98 
+ 121      9793AB
+ 122 0328 B216155B 		.ascii	"\262\026\025[vd\254\246c*\267\224\233\245\262\364S\234"
+ 122      7664ACA6 
+ 122      632AB794 
+ 122      9BA5B2F4 
+ 122      539C
+ 123 033a DA6C325A 		.ascii	"\332l2Z\020\240)+*\221\035kY!s\266\254Q\003\022\345"
+ 123      10A0292B 
+ 123      2A911D6B 
+ 123      592173B6 
+ 123      AC510312 
+ 124 034f 020A0B4C 		.ascii	"\002\012\013Lg\254fe\251trG\306?\253%\252\023"
+ 124      67AC6665 
+ 124      A9747247 
+ 124      C63FAB25 
+ 124      AA13
+ 125              		.text
+ 126              		.section	.gnu.lto_.symtab.1813baa3,"",%progbits
+ 127 0000 56726566 		.ascii	"Vref_Sleep\000\000\000\000\000\000\000\000\000\000\000"
+ 127      5F536C65 
+ 127      65700000 
+ 127      00000000 
+ 127      00000000 
+ 128 0015 00AC0000 		.ascii	"\000\254\000\000\000Vref_Wakeup\000\000\000\000\000"
+ 128      00567265 
+ 128      665F5761 
+ 128      6B657570 
+ 128      00000000 
+ 129 002a 00000000 		.ascii	"\000\000\000\000\000\000\000\256\000\000\000"
+ 129      000000AE 
+ 129      000000
+ 130              		.text
+ 131              		.section	.gnu.lto_.opts,"",%progbits
+ 132 0000 272D666E 		.ascii	"'-fno-trapv' '-mcpu=cortex-m0' '-mthumb' '-g' '-O3'"
+ 132      6F2D7472 
+ 132      61707627 
+ 132      20272D6D 
+ 132      6370753D 
+ 133 0033 20272D66 		.ascii	" '-ffunction-sections' '-finline-functions' '-flto'"
+ 133      66756E63 
+ 133      74696F6E 
+ 133      2D736563 
+ 133      74696F6E 
+ 134 0066 20272D66 		.ascii	" '-ffat-lto-objects'\000"
+ 134      6661742D 
+ 134      6C746F2D 
+ 134      6F626A65 
+ 134      63747327 
+ 135              		.text
+ 136              		.cfi_sections	.debug_frame
+ 137              		.section	.text.Vref_Sleep,"ax",%progbits
+ 138              		.align	2
+ 139              		.global	Vref_Sleep
+ 140              		.code	16
+ 141              		.thumb_func
+ 142              		.type	Vref_Sleep, %function
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 10
+
+
+ 143              	Vref_Sleep:
+ 144              	.LFB0:
+ 145              		.file 1 "Generated_Source\\PSoC4\\Vref_PM.c"
+   1:Generated_Source\PSoC4/Vref_PM.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/Vref_PM.c **** * File Name: Vref.c  
+   3:Generated_Source\PSoC4/Vref_PM.c **** * Version 2.20
+   4:Generated_Source\PSoC4/Vref_PM.c **** *
+   5:Generated_Source\PSoC4/Vref_PM.c **** * Description:
+   6:Generated_Source\PSoC4/Vref_PM.c **** *  This file contains APIs to set up the Pins component for low power modes.
+   7:Generated_Source\PSoC4/Vref_PM.c **** *
+   8:Generated_Source\PSoC4/Vref_PM.c **** * Note:
+   9:Generated_Source\PSoC4/Vref_PM.c **** *
+  10:Generated_Source\PSoC4/Vref_PM.c **** ********************************************************************************
+  11:Generated_Source\PSoC4/Vref_PM.c **** * Copyright 2015, Cypress Semiconductor Corporation.  All rights reserved.
+  12:Generated_Source\PSoC4/Vref_PM.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  13:Generated_Source\PSoC4/Vref_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  14:Generated_Source\PSoC4/Vref_PM.c **** * the software package with which this file was provided.
+  15:Generated_Source\PSoC4/Vref_PM.c **** *******************************************************************************/
+  16:Generated_Source\PSoC4/Vref_PM.c **** 
+  17:Generated_Source\PSoC4/Vref_PM.c **** #include "cytypes.h"
+  18:Generated_Source\PSoC4/Vref_PM.c **** #include "Vref.h"
+  19:Generated_Source\PSoC4/Vref_PM.c **** 
+  20:Generated_Source\PSoC4/Vref_PM.c **** static Vref_BACKUP_STRUCT  Vref_backup = {0u, 0u, 0u};
+  21:Generated_Source\PSoC4/Vref_PM.c **** 
+  22:Generated_Source\PSoC4/Vref_PM.c **** 
+  23:Generated_Source\PSoC4/Vref_PM.c **** /*******************************************************************************
+  24:Generated_Source\PSoC4/Vref_PM.c **** * Function Name: Vref_Sleep
+  25:Generated_Source\PSoC4/Vref_PM.c **** ****************************************************************************//**
+  26:Generated_Source\PSoC4/Vref_PM.c **** *
+  27:Generated_Source\PSoC4/Vref_PM.c **** * \brief Stores the pin configuration and prepares the pin for entering chip 
+  28:Generated_Source\PSoC4/Vref_PM.c **** *  deep-sleep/hibernate modes. This function must be called for SIO and USBIO
+  29:Generated_Source\PSoC4/Vref_PM.c **** *  pins. It is not essential if using GPIO or GPIO_OVT pins.
+  30:Generated_Source\PSoC4/Vref_PM.c **** *
+  31:Generated_Source\PSoC4/Vref_PM.c **** * <b>Note</b> This function is available in PSoC 4 only.
+  32:Generated_Source\PSoC4/Vref_PM.c **** *
+  33:Generated_Source\PSoC4/Vref_PM.c **** * \return 
+  34:Generated_Source\PSoC4/Vref_PM.c **** *  None 
+  35:Generated_Source\PSoC4/Vref_PM.c **** *  
+  36:Generated_Source\PSoC4/Vref_PM.c **** * \sideeffect
+  37:Generated_Source\PSoC4/Vref_PM.c **** *  For SIO pins, this function configures the pin input threshold to CMOS and
+  38:Generated_Source\PSoC4/Vref_PM.c **** *  drive level to Vddio. This is needed for SIO pins when in device 
+  39:Generated_Source\PSoC4/Vref_PM.c **** *  deep-sleep/hibernate modes.
+  40:Generated_Source\PSoC4/Vref_PM.c **** *
+  41:Generated_Source\PSoC4/Vref_PM.c **** * \funcusage
+  42:Generated_Source\PSoC4/Vref_PM.c **** *  \snippet Vref_SUT.c usage_Vref_Sleep_Wakeup
+  43:Generated_Source\PSoC4/Vref_PM.c **** *******************************************************************************/
+  44:Generated_Source\PSoC4/Vref_PM.c **** void Vref_Sleep(void)
+  45:Generated_Source\PSoC4/Vref_PM.c **** {
+ 146              		.loc 1 45 0
+ 147              		.cfi_startproc
+  46:Generated_Source\PSoC4/Vref_PM.c ****     #if defined(Vref__PC)
+  47:Generated_Source\PSoC4/Vref_PM.c ****         Vref_backup.pcState = Vref_PC;
+ 148              		.loc 1 47 0
+ 149 0000 024B     		ldr	r3, .L2
+  48:Generated_Source\PSoC4/Vref_PM.c ****     #else
+  49:Generated_Source\PSoC4/Vref_PM.c ****         #if (CY_PSOC4_4200L)
+  50:Generated_Source\PSoC4/Vref_PM.c ****             /* Save the regulator state and put the PHY into suspend mode */
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 11
+
+
+  51:Generated_Source\PSoC4/Vref_PM.c ****             Vref_backup.usbState = Vref_CR1_REG;
+  52:Generated_Source\PSoC4/Vref_PM.c ****             Vref_USB_POWER_REG |= Vref_USBIO_ENTER_SLEEP;
+  53:Generated_Source\PSoC4/Vref_PM.c ****             Vref_CR1_REG &= Vref_USBIO_CR1_OFF;
+  54:Generated_Source\PSoC4/Vref_PM.c ****         #endif
+  55:Generated_Source\PSoC4/Vref_PM.c ****     #endif
+  56:Generated_Source\PSoC4/Vref_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(Vref__SIO)
+  57:Generated_Source\PSoC4/Vref_PM.c ****         Vref_backup.sioState = Vref_SIO_REG;
+  58:Generated_Source\PSoC4/Vref_PM.c ****         /* SIO requires unregulated output buffer and single ended input buffer */
+  59:Generated_Source\PSoC4/Vref_PM.c ****         Vref_SIO_REG &= (uint32)(~Vref_SIO_LPM_MASK);
+  60:Generated_Source\PSoC4/Vref_PM.c ****     #endif  
+  61:Generated_Source\PSoC4/Vref_PM.c **** }
+ 150              		.loc 1 61 0
+ 151              		@ sp needed
+  47:Generated_Source\PSoC4/Vref_PM.c ****     #else
+ 152              		.loc 1 47 0
+ 153 0002 1A68     		ldr	r2, [r3]
+ 154 0004 024B     		ldr	r3, .L2+4
+ 155 0006 1A60     		str	r2, [r3]
+ 156              		.loc 1 61 0
+ 157 0008 7047     		bx	lr
+ 158              	.L3:
+ 159 000a C046     		.align	2
+ 160              	.L2:
+ 161 000c 08030440 		.word	1074004744
+ 162 0010 00000000 		.word	.LANCHOR0
+ 163              		.cfi_endproc
+ 164              	.LFE0:
+ 165              		.size	Vref_Sleep, .-Vref_Sleep
+ 166              		.section	.text.Vref_Wakeup,"ax",%progbits
+ 167              		.align	2
+ 168              		.global	Vref_Wakeup
+ 169              		.code	16
+ 170              		.thumb_func
+ 171              		.type	Vref_Wakeup, %function
+ 172              	Vref_Wakeup:
+ 173              	.LFB1:
+  62:Generated_Source\PSoC4/Vref_PM.c **** 
+  63:Generated_Source\PSoC4/Vref_PM.c **** 
+  64:Generated_Source\PSoC4/Vref_PM.c **** /*******************************************************************************
+  65:Generated_Source\PSoC4/Vref_PM.c **** * Function Name: Vref_Wakeup
+  66:Generated_Source\PSoC4/Vref_PM.c **** ****************************************************************************//**
+  67:Generated_Source\PSoC4/Vref_PM.c **** *
+  68:Generated_Source\PSoC4/Vref_PM.c **** * \brief Restores the pin configuration that was saved during Pin_Sleep().
+  69:Generated_Source\PSoC4/Vref_PM.c **** *
+  70:Generated_Source\PSoC4/Vref_PM.c **** * For USBIO pins, the wakeup is only triggered for falling edge interrupts.
+  71:Generated_Source\PSoC4/Vref_PM.c **** *
+  72:Generated_Source\PSoC4/Vref_PM.c **** * <b>Note</b> This function is available in PSoC 4 only.
+  73:Generated_Source\PSoC4/Vref_PM.c **** *
+  74:Generated_Source\PSoC4/Vref_PM.c **** * \return 
+  75:Generated_Source\PSoC4/Vref_PM.c **** *  None
+  76:Generated_Source\PSoC4/Vref_PM.c **** *  
+  77:Generated_Source\PSoC4/Vref_PM.c **** * \funcusage
+  78:Generated_Source\PSoC4/Vref_PM.c **** *  Refer to Vref_Sleep() for an example usage.
+  79:Generated_Source\PSoC4/Vref_PM.c **** *******************************************************************************/
+  80:Generated_Source\PSoC4/Vref_PM.c **** void Vref_Wakeup(void)
+  81:Generated_Source\PSoC4/Vref_PM.c **** {
+ 174              		.loc 1 81 0
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 12
+
+
+ 175              		.cfi_startproc
+  82:Generated_Source\PSoC4/Vref_PM.c ****     #if defined(Vref__PC)
+  83:Generated_Source\PSoC4/Vref_PM.c ****         Vref_PC = Vref_backup.pcState;
+ 176              		.loc 1 83 0
+ 177 0000 024B     		ldr	r3, .L5
+  84:Generated_Source\PSoC4/Vref_PM.c ****     #else
+  85:Generated_Source\PSoC4/Vref_PM.c ****         #if (CY_PSOC4_4200L)
+  86:Generated_Source\PSoC4/Vref_PM.c ****             /* Restore the regulator state and come out of suspend mode */
+  87:Generated_Source\PSoC4/Vref_PM.c ****             Vref_USB_POWER_REG &= Vref_USBIO_EXIT_SLEEP_PH1;
+  88:Generated_Source\PSoC4/Vref_PM.c ****             Vref_CR1_REG = Vref_backup.usbState;
+  89:Generated_Source\PSoC4/Vref_PM.c ****             Vref_USB_POWER_REG &= Vref_USBIO_EXIT_SLEEP_PH2;
+  90:Generated_Source\PSoC4/Vref_PM.c ****         #endif
+  91:Generated_Source\PSoC4/Vref_PM.c ****     #endif
+  92:Generated_Source\PSoC4/Vref_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(Vref__SIO)
+  93:Generated_Source\PSoC4/Vref_PM.c ****         Vref_SIO_REG = Vref_backup.sioState;
+  94:Generated_Source\PSoC4/Vref_PM.c ****     #endif
+  95:Generated_Source\PSoC4/Vref_PM.c **** }
+ 178              		.loc 1 95 0
+ 179              		@ sp needed
+  83:Generated_Source\PSoC4/Vref_PM.c ****     #else
+ 180              		.loc 1 83 0
+ 181 0002 1A68     		ldr	r2, [r3]
+ 182 0004 024B     		ldr	r3, .L5+4
+ 183 0006 1A60     		str	r2, [r3]
+ 184              		.loc 1 95 0
+ 185 0008 7047     		bx	lr
+ 186              	.L6:
+ 187 000a C046     		.align	2
+ 188              	.L5:
+ 189 000c 00000000 		.word	.LANCHOR0
+ 190 0010 08030440 		.word	1074004744
+ 191              		.cfi_endproc
+ 192              	.LFE1:
+ 193              		.size	Vref_Wakeup, .-Vref_Wakeup
+ 194              		.bss
+ 195              		.align	2
+ 196              		.set	.LANCHOR0,. + 0
+ 197              		.type	Vref_backup, %object
+ 198              		.size	Vref_backup, 12
+ 199              	Vref_backup:
+ 200 0000 00000000 		.space	12
+ 200      00000000 
+ 200      00000000 
+ 201              		.text
+ 202              	.Letext0:
+ 203              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 204              		.file 3 "Generated_Source\\PSoC4\\Vref.h"
+ 205              		.section	.debug_info,"",%progbits
+ 206              	.Ldebug_info0:
+ 207 0000 05010000 		.4byte	0x105
+ 208 0004 0400     		.2byte	0x4
+ 209 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 210 000a 04       		.byte	0x4
+ 211 000b 01       		.uleb128 0x1
+ 212 000c 29010000 		.4byte	.LASF20
+ 213 0010 01       		.byte	0x1
+ 214 0011 FE000000 		.4byte	.LASF21
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 13
+
+
+ 215 0015 0F000000 		.4byte	.LASF22
+ 216 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 217 001d 00000000 		.4byte	0
+ 218 0021 00000000 		.4byte	.Ldebug_line0
+ 219 0025 02       		.uleb128 0x2
+ 220 0026 01       		.byte	0x1
+ 221 0027 06       		.byte	0x6
+ 222 0028 E1010000 		.4byte	.LASF0
+ 223 002c 02       		.uleb128 0x2
+ 224 002d 01       		.byte	0x1
+ 225 002e 08       		.byte	0x8
+ 226 002f 65000000 		.4byte	.LASF1
+ 227 0033 02       		.uleb128 0x2
+ 228 0034 02       		.byte	0x2
+ 229 0035 05       		.byte	0x5
+ 230 0036 1F010000 		.4byte	.LASF2
+ 231 003a 02       		.uleb128 0x2
+ 232 003b 02       		.byte	0x2
+ 233 003c 07       		.byte	0x7
+ 234 003d 85000000 		.4byte	.LASF3
+ 235 0041 02       		.uleb128 0x2
+ 236 0042 04       		.byte	0x4
+ 237 0043 05       		.byte	0x5
+ 238 0044 D8010000 		.4byte	.LASF4
+ 239 0048 02       		.uleb128 0x2
+ 240 0049 04       		.byte	0x4
+ 241 004a 07       		.byte	0x7
+ 242 004b 73000000 		.4byte	.LASF5
+ 243 004f 02       		.uleb128 0x2
+ 244 0050 08       		.byte	0x8
+ 245 0051 05       		.byte	0x5
+ 246 0052 DF000000 		.4byte	.LASF6
+ 247 0056 02       		.uleb128 0x2
+ 248 0057 08       		.byte	0x8
+ 249 0058 07       		.byte	0x7
+ 250 0059 BF000000 		.4byte	.LASF7
+ 251 005d 03       		.uleb128 0x3
+ 252 005e 04       		.byte	0x4
+ 253 005f 05       		.byte	0x5
+ 254 0060 696E7400 		.ascii	"int\000"
+ 255 0064 02       		.uleb128 0x2
+ 256 0065 04       		.byte	0x4
+ 257 0066 07       		.byte	0x7
+ 258 0067 B2000000 		.4byte	.LASF8
+ 259 006b 04       		.uleb128 0x4
+ 260 006c AB000000 		.4byte	.LASF12
+ 261 0070 02       		.byte	0x2
+ 262 0071 9A01     		.2byte	0x19a
+ 263 0073 48000000 		.4byte	0x48
+ 264 0077 02       		.uleb128 0x2
+ 265 0078 04       		.byte	0x4
+ 266 0079 04       		.byte	0x4
+ 267 007a 5F000000 		.4byte	.LASF9
+ 268 007e 02       		.uleb128 0x2
+ 269 007f 08       		.byte	0x8
+ 270 0080 04       		.byte	0x4
+ 271 0081 98000000 		.4byte	.LASF10
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 14
+
+
+ 272 0085 02       		.uleb128 0x2
+ 273 0086 01       		.byte	0x1
+ 274 0087 08       		.byte	0x8
+ 275 0088 F9000000 		.4byte	.LASF11
+ 276 008c 04       		.uleb128 0x4
+ 277 008d 00000000 		.4byte	.LASF13
+ 278 0091 02       		.byte	0x2
+ 279 0092 4402     		.2byte	0x244
+ 280 0094 98000000 		.4byte	0x98
+ 281 0098 05       		.uleb128 0x5
+ 282 0099 6B000000 		.4byte	0x6b
+ 283 009d 06       		.uleb128 0x6
+ 284 009e 0C       		.byte	0xc
+ 285 009f 03       		.byte	0x3
+ 286 00a0 21       		.byte	0x21
+ 287 00a1 CA000000 		.4byte	0xca
+ 288 00a5 07       		.uleb128 0x7
+ 289 00a6 D0010000 		.4byte	.LASF14
+ 290 00aa 03       		.byte	0x3
+ 291 00ab 23       		.byte	0x23
+ 292 00ac 6B000000 		.4byte	0x6b
+ 293 00b0 00       		.byte	0
+ 294 00b1 07       		.uleb128 0x7
+ 295 00b2 D6000000 		.4byte	.LASF15
+ 296 00b6 03       		.byte	0x3
+ 297 00b7 24       		.byte	0x24
+ 298 00b8 6B000000 		.4byte	0x6b
+ 299 00bc 04       		.byte	0x4
+ 300 00bd 07       		.uleb128 0x7
+ 301 00be 06000000 		.4byte	.LASF16
+ 302 00c2 03       		.byte	0x3
+ 303 00c3 25       		.byte	0x25
+ 304 00c4 6B000000 		.4byte	0x6b
+ 305 00c8 08       		.byte	0x8
+ 306 00c9 00       		.byte	0
+ 307 00ca 08       		.uleb128 0x8
+ 308 00cb 4C000000 		.4byte	.LASF17
+ 309 00cf 03       		.byte	0x3
+ 310 00d0 26       		.byte	0x26
+ 311 00d1 9D000000 		.4byte	0x9d
+ 312 00d5 09       		.uleb128 0x9
+ 313 00d6 ED010000 		.4byte	.LASF18
+ 314 00da 01       		.byte	0x1
+ 315 00db 2C       		.byte	0x2c
+ 316 00dc 00000000 		.4byte	.LFB0
+ 317 00e0 14000000 		.4byte	.LFE0-.LFB0
+ 318 00e4 01       		.uleb128 0x1
+ 319 00e5 9C       		.byte	0x9c
+ 320 00e6 09       		.uleb128 0x9
+ 321 00e7 ED000000 		.4byte	.LASF19
+ 322 00eb 01       		.byte	0x1
+ 323 00ec 50       		.byte	0x50
+ 324 00ed 00000000 		.4byte	.LFB1
+ 325 00f1 14000000 		.4byte	.LFE1-.LFB1
+ 326 00f5 01       		.uleb128 0x1
+ 327 00f6 9C       		.byte	0x9c
+ 328 00f7 0A       		.uleb128 0xa
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 15
+
+
+ 329 00f8 9F000000 		.4byte	.LASF23
+ 330 00fc 01       		.byte	0x1
+ 331 00fd 14       		.byte	0x14
+ 332 00fe CA000000 		.4byte	0xca
+ 333 0102 05       		.uleb128 0x5
+ 334 0103 03       		.byte	0x3
+ 335 0104 00000000 		.4byte	Vref_backup
+ 336 0108 00       		.byte	0
+ 337              		.section	.debug_abbrev,"",%progbits
+ 338              	.Ldebug_abbrev0:
+ 339 0000 01       		.uleb128 0x1
+ 340 0001 11       		.uleb128 0x11
+ 341 0002 01       		.byte	0x1
+ 342 0003 25       		.uleb128 0x25
+ 343 0004 0E       		.uleb128 0xe
+ 344 0005 13       		.uleb128 0x13
+ 345 0006 0B       		.uleb128 0xb
+ 346 0007 03       		.uleb128 0x3
+ 347 0008 0E       		.uleb128 0xe
+ 348 0009 1B       		.uleb128 0x1b
+ 349 000a 0E       		.uleb128 0xe
+ 350 000b 55       		.uleb128 0x55
+ 351 000c 17       		.uleb128 0x17
+ 352 000d 11       		.uleb128 0x11
+ 353 000e 01       		.uleb128 0x1
+ 354 000f 10       		.uleb128 0x10
+ 355 0010 17       		.uleb128 0x17
+ 356 0011 00       		.byte	0
+ 357 0012 00       		.byte	0
+ 358 0013 02       		.uleb128 0x2
+ 359 0014 24       		.uleb128 0x24
+ 360 0015 00       		.byte	0
+ 361 0016 0B       		.uleb128 0xb
+ 362 0017 0B       		.uleb128 0xb
+ 363 0018 3E       		.uleb128 0x3e
+ 364 0019 0B       		.uleb128 0xb
+ 365 001a 03       		.uleb128 0x3
+ 366 001b 0E       		.uleb128 0xe
+ 367 001c 00       		.byte	0
+ 368 001d 00       		.byte	0
+ 369 001e 03       		.uleb128 0x3
+ 370 001f 24       		.uleb128 0x24
+ 371 0020 00       		.byte	0
+ 372 0021 0B       		.uleb128 0xb
+ 373 0022 0B       		.uleb128 0xb
+ 374 0023 3E       		.uleb128 0x3e
+ 375 0024 0B       		.uleb128 0xb
+ 376 0025 03       		.uleb128 0x3
+ 377 0026 08       		.uleb128 0x8
+ 378 0027 00       		.byte	0
+ 379 0028 00       		.byte	0
+ 380 0029 04       		.uleb128 0x4
+ 381 002a 16       		.uleb128 0x16
+ 382 002b 00       		.byte	0
+ 383 002c 03       		.uleb128 0x3
+ 384 002d 0E       		.uleb128 0xe
+ 385 002e 3A       		.uleb128 0x3a
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 16
+
+
+ 386 002f 0B       		.uleb128 0xb
+ 387 0030 3B       		.uleb128 0x3b
+ 388 0031 05       		.uleb128 0x5
+ 389 0032 49       		.uleb128 0x49
+ 390 0033 13       		.uleb128 0x13
+ 391 0034 00       		.byte	0
+ 392 0035 00       		.byte	0
+ 393 0036 05       		.uleb128 0x5
+ 394 0037 35       		.uleb128 0x35
+ 395 0038 00       		.byte	0
+ 396 0039 49       		.uleb128 0x49
+ 397 003a 13       		.uleb128 0x13
+ 398 003b 00       		.byte	0
+ 399 003c 00       		.byte	0
+ 400 003d 06       		.uleb128 0x6
+ 401 003e 13       		.uleb128 0x13
+ 402 003f 01       		.byte	0x1
+ 403 0040 0B       		.uleb128 0xb
+ 404 0041 0B       		.uleb128 0xb
+ 405 0042 3A       		.uleb128 0x3a
+ 406 0043 0B       		.uleb128 0xb
+ 407 0044 3B       		.uleb128 0x3b
+ 408 0045 0B       		.uleb128 0xb
+ 409 0046 01       		.uleb128 0x1
+ 410 0047 13       		.uleb128 0x13
+ 411 0048 00       		.byte	0
+ 412 0049 00       		.byte	0
+ 413 004a 07       		.uleb128 0x7
+ 414 004b 0D       		.uleb128 0xd
+ 415 004c 00       		.byte	0
+ 416 004d 03       		.uleb128 0x3
+ 417 004e 0E       		.uleb128 0xe
+ 418 004f 3A       		.uleb128 0x3a
+ 419 0050 0B       		.uleb128 0xb
+ 420 0051 3B       		.uleb128 0x3b
+ 421 0052 0B       		.uleb128 0xb
+ 422 0053 49       		.uleb128 0x49
+ 423 0054 13       		.uleb128 0x13
+ 424 0055 38       		.uleb128 0x38
+ 425 0056 0B       		.uleb128 0xb
+ 426 0057 00       		.byte	0
+ 427 0058 00       		.byte	0
+ 428 0059 08       		.uleb128 0x8
+ 429 005a 16       		.uleb128 0x16
+ 430 005b 00       		.byte	0
+ 431 005c 03       		.uleb128 0x3
+ 432 005d 0E       		.uleb128 0xe
+ 433 005e 3A       		.uleb128 0x3a
+ 434 005f 0B       		.uleb128 0xb
+ 435 0060 3B       		.uleb128 0x3b
+ 436 0061 0B       		.uleb128 0xb
+ 437 0062 49       		.uleb128 0x49
+ 438 0063 13       		.uleb128 0x13
+ 439 0064 00       		.byte	0
+ 440 0065 00       		.byte	0
+ 441 0066 09       		.uleb128 0x9
+ 442 0067 2E       		.uleb128 0x2e
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 17
+
+
+ 443 0068 00       		.byte	0
+ 444 0069 3F       		.uleb128 0x3f
+ 445 006a 19       		.uleb128 0x19
+ 446 006b 03       		.uleb128 0x3
+ 447 006c 0E       		.uleb128 0xe
+ 448 006d 3A       		.uleb128 0x3a
+ 449 006e 0B       		.uleb128 0xb
+ 450 006f 3B       		.uleb128 0x3b
+ 451 0070 0B       		.uleb128 0xb
+ 452 0071 27       		.uleb128 0x27
+ 453 0072 19       		.uleb128 0x19
+ 454 0073 11       		.uleb128 0x11
+ 455 0074 01       		.uleb128 0x1
+ 456 0075 12       		.uleb128 0x12
+ 457 0076 06       		.uleb128 0x6
+ 458 0077 40       		.uleb128 0x40
+ 459 0078 18       		.uleb128 0x18
+ 460 0079 9742     		.uleb128 0x2117
+ 461 007b 19       		.uleb128 0x19
+ 462 007c 00       		.byte	0
+ 463 007d 00       		.byte	0
+ 464 007e 0A       		.uleb128 0xa
+ 465 007f 34       		.uleb128 0x34
+ 466 0080 00       		.byte	0
+ 467 0081 03       		.uleb128 0x3
+ 468 0082 0E       		.uleb128 0xe
+ 469 0083 3A       		.uleb128 0x3a
+ 470 0084 0B       		.uleb128 0xb
+ 471 0085 3B       		.uleb128 0x3b
+ 472 0086 0B       		.uleb128 0xb
+ 473 0087 49       		.uleb128 0x49
+ 474 0088 13       		.uleb128 0x13
+ 475 0089 02       		.uleb128 0x2
+ 476 008a 18       		.uleb128 0x18
+ 477 008b 00       		.byte	0
+ 478 008c 00       		.byte	0
+ 479 008d 00       		.byte	0
+ 480              		.section	.debug_aranges,"",%progbits
+ 481 0000 24000000 		.4byte	0x24
+ 482 0004 0200     		.2byte	0x2
+ 483 0006 00000000 		.4byte	.Ldebug_info0
+ 484 000a 04       		.byte	0x4
+ 485 000b 00       		.byte	0
+ 486 000c 0000     		.2byte	0
+ 487 000e 0000     		.2byte	0
+ 488 0010 00000000 		.4byte	.LFB0
+ 489 0014 14000000 		.4byte	.LFE0-.LFB0
+ 490 0018 00000000 		.4byte	.LFB1
+ 491 001c 14000000 		.4byte	.LFE1-.LFB1
+ 492 0020 00000000 		.4byte	0
+ 493 0024 00000000 		.4byte	0
+ 494              		.section	.debug_ranges,"",%progbits
+ 495              	.Ldebug_ranges0:
+ 496 0000 00000000 		.4byte	.LFB0
+ 497 0004 14000000 		.4byte	.LFE0
+ 498 0008 00000000 		.4byte	.LFB1
+ 499 000c 14000000 		.4byte	.LFE1
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 18
+
+
+ 500 0010 00000000 		.4byte	0
+ 501 0014 00000000 		.4byte	0
+ 502              		.section	.debug_line,"",%progbits
+ 503              	.Ldebug_line0:
+ 504 0000 87000000 		.section	.debug_str,"MS",%progbits,1
+ 504      02004E00 
+ 504      00000201 
+ 504      FB0E0D00 
+ 504      01010101 
+ 505              	.LASF13:
+ 506 0000 72656733 		.ascii	"reg32\000"
+ 506      3200
+ 507              	.LASF16:
+ 508 0006 75736253 		.ascii	"usbState\000"
+ 508      74617465 
+ 508      00
+ 509              	.LASF22:
+ 510 000f 443A5C44 		.ascii	"D:\\Dropbox\\blog\\UV sensor\\SW\\UVSensorCypress\\"
+ 510      726F7062 
+ 510      6F785C62 
+ 510      6C6F675C 
+ 510      55562073 
+ 511 003c 55562053 		.ascii	"UV Sensor.cydsn\000"
+ 511      656E736F 
+ 511      722E6379 
+ 511      64736E00 
+ 512              	.LASF17:
+ 513 004c 56726566 		.ascii	"Vref_BACKUP_STRUCT\000"
+ 513      5F424143 
+ 513      4B55505F 
+ 513      53545255 
+ 513      435400
+ 514              	.LASF9:
+ 515 005f 666C6F61 		.ascii	"float\000"
+ 515      7400
+ 516              	.LASF1:
+ 517 0065 756E7369 		.ascii	"unsigned char\000"
+ 517      676E6564 
+ 517      20636861 
+ 517      7200
+ 518              	.LASF5:
+ 519 0073 6C6F6E67 		.ascii	"long unsigned int\000"
+ 519      20756E73 
+ 519      69676E65 
+ 519      6420696E 
+ 519      7400
+ 520              	.LASF3:
+ 521 0085 73686F72 		.ascii	"short unsigned int\000"
+ 521      7420756E 
+ 521      7369676E 
+ 521      65642069 
+ 521      6E7400
+ 522              	.LASF10:
+ 523 0098 646F7562 		.ascii	"double\000"
+ 523      6C6500
+ 524              	.LASF23:
+ 525 009f 56726566 		.ascii	"Vref_backup\000"
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 19
+
+
+ 525      5F626163 
+ 525      6B757000 
+ 526              	.LASF12:
+ 527 00ab 75696E74 		.ascii	"uint32\000"
+ 527      333200
+ 528              	.LASF8:
+ 529 00b2 756E7369 		.ascii	"unsigned int\000"
+ 529      676E6564 
+ 529      20696E74 
+ 529      00
+ 530              	.LASF7:
+ 531 00bf 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 531      206C6F6E 
+ 531      6720756E 
+ 531      7369676E 
+ 531      65642069 
+ 532              	.LASF15:
+ 533 00d6 73696F53 		.ascii	"sioState\000"
+ 533      74617465 
+ 533      00
+ 534              	.LASF6:
+ 535 00df 6C6F6E67 		.ascii	"long long int\000"
+ 535      206C6F6E 
+ 535      6720696E 
+ 535      7400
+ 536              	.LASF19:
+ 537 00ed 56726566 		.ascii	"Vref_Wakeup\000"
+ 537      5F57616B 
+ 537      65757000 
+ 538              	.LASF11:
+ 539 00f9 63686172 		.ascii	"char\000"
+ 539      00
+ 540              	.LASF21:
+ 541 00fe 47656E65 		.ascii	"Generated_Source\\PSoC4\\Vref_PM.c\000"
+ 541      72617465 
+ 541      645F536F 
+ 541      75726365 
+ 541      5C50536F 
+ 542              	.LASF2:
+ 543 011f 73686F72 		.ascii	"short int\000"
+ 543      7420696E 
+ 543      7400
+ 544              	.LASF20:
+ 545 0129 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 545      4320342E 
+ 545      392E3320 
+ 545      32303135 
+ 545      30333033 
+ 546 015c 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 546      20726576 
+ 546      6973696F 
+ 546      6E203232 
+ 546      31323230 
+ 547 018f 33202D66 		.ascii	"3 -ffunction-sections -finline-functions -flto -ffa"
+ 547      66756E63 
+ 547      74696F6E 
+ 547      2D736563 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 20
+
+
+ 547      74696F6E 
+ 548 01c2 742D6C74 		.ascii	"t-lto-objects\000"
+ 548      6F2D6F62 
+ 548      6A656374 
+ 548      7300
+ 549              	.LASF14:
+ 550 01d0 70635374 		.ascii	"pcState\000"
+ 550      61746500 
+ 551              	.LASF4:
+ 552 01d8 6C6F6E67 		.ascii	"long int\000"
+ 552      20696E74 
+ 552      00
+ 553              	.LASF0:
+ 554 01e1 7369676E 		.ascii	"signed char\000"
+ 554      65642063 
+ 554      68617200 
+ 555              	.LASF18:
+ 556 01ed 56726566 		.ascii	"Vref_Sleep\000"
+ 556      5F536C65 
+ 556      657000
+ 557              		.comm	__gnu_lto_v1,1,1
+ 558              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

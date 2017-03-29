@@ -1,0 +1,5 @@
+D:\Program Files\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d177ac22-1769-4ed7-be6c-dfe48cc970f6
+D:\Program Files\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|fea5e42b-53c5-4eb2-b6ca-9023208955fc
+D:\Program Files\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|ce60d74b-9d4f-472f-a444-37a31438493a
+D:\Program Files\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|21bd61c4-e525-442b-beee-21e01a0d672f
+D:\Dropbox\blog\UV sensor\SW\UVSensorCypress\UV Sensor.cydsn\UV Sensor.cyprj|1dc5dee9-8450-42a0-bc60-669ab28a70bd
