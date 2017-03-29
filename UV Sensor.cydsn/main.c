@@ -27,7 +27,7 @@
 * disclaimers, and limitations in the end user license agreement accompanying
 * the software package with which this file was provided.
 *******************************************************************************/
-
+#include <stdlib.h>
 #include <Project.h>
 
 /***************************************
@@ -69,8 +69,8 @@ extern CYBLE_GAPP_DISC_MODE_INFO_T cyBle_discoveryModeInfo;
 void InitializeSystem(void);
 void StackEventHandler(uint32 event, void* eventParam);
 void EnterLowPowerMode(void);
-void DynamicADVPayloadUpdate(int16);
-int16 ReadUVSensor(void);
+void DynamicADVPayloadUpdate(void);
+void ReadUVSensor(void);
 
 /***************************************
 *        Global variables
@@ -94,15 +94,18 @@ uint8 dynamicPayload = MIN_PAYLOAD_VALUE;
 *******************************************************************************/
 int main()
 {
-    int16 butts = 0;
     /* Setup the system initially */
     InitializeSystem();
      ADC_Start();
+   
+    char test_string[] = "\n\rHello World\n\r";
+    UART_1_UartPutString(test_string); // print test_string
     /* Three simple APIs that showcases dynamic ADV payload update */ 
-    for(;;)
-    {
-        butts = ReadUVSensor();
-        
+    while(1) 
+    { 
+        CyDelay(252);  
+        ReadUVSensor();
+  
         /* Single API call to service all the BLE stack events. Must be
          * called at least once in a BLE connection interval */
         CyBle_ProcessEvents();
@@ -116,10 +119,6 @@ int main()
            1. Set the "Debug Select" option under Dynamic Broadcaster.cydwr -> System -> Programming/Debugging to GPIO 
            2. Comment out Advertising_LED_Write(LED_ON); line of code in StackEventHandler routine
         */
-        
-#if ENABLE_DYNAMIC_ADV        
-        DynamicADVPayloadUpdate(butts);
-#endif
 
     }
 }
@@ -174,7 +173,7 @@ void InitializeSystem(void)
         cyBle_discoveryData.advData[22] = 0xDF;     /* NID[9] */
 
         /* Instance ID - randomly created */
-        cyBle_discoveryData.advData[23] = 0x00;     /* BID[0] */
+        cyBle_discoveryData.advData[23] = 0x77;     /* BID[0] */
         cyBle_discoveryData.advData[24] = 0x01;     /* BID[1] */
         cyBle_discoveryData.advData[25] = 0x01;     /* BID[2] */
         cyBle_discoveryData.advData[26] = 0x01;     /* BID[3] */
@@ -205,7 +204,7 @@ void InitializeSystem(void)
     CySysClkIloStop();
     
     
-    
+    UART_1_Start();
     
     
     
@@ -281,7 +280,7 @@ void EnterLowPowerMode(void)
 *  None
 *
 *******************************************************************************/
-void DynamicADVPayloadUpdate(int16 readValue)
+void DynamicADVPayloadUpdate(void)
 {
     if(CyBle_GetBleSsState() == CYBLE_BLESS_STATE_EVENT_CLOSE)
     {
@@ -294,9 +293,9 @@ void DynamicADVPayloadUpdate(int16 readValue)
         if(count >= LOOP_DELAY)
         {
             /* Dynamic payload will be continuously updated */
-            //advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = dynamicPayload++;
-            dynamicPayload++;
-            advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = readValue;
+            advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = dynamicPayload++;
+            
+            //advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = readValue;
             
             if(dynamicPayload == MAX_PAYLOAD_VALUE)
             {
@@ -368,11 +367,13 @@ void StackEventHandler(uint32 event, void *eventParam)
 *   This function measures the adc value
 *
 *******************************************************************************/
-int16 ReadUVSensor(void)
+void ReadUVSensor(void)
 {
 	int16 adcResult;
+    int16 temp;
 	uint32 sarControlReg;
-    
+    char str[5];
+    int8 scoop;
 
     //batteryTimer = BATTERY_TIMEOUT;
         
@@ -390,10 +391,24 @@ int16 ReadUVSensor(void)
     	/* Perform a measurement. Store this value in Vref. */
     	CyDelay(1);
     	ADC_StartConvert();
+        
     	ADC_IsEndConversion(ADC_WAIT_FOR_RESULT);
 
         adcResult = ADC_GetResult16(ADC_CHANNEL);
+        temp = adcResult/8;
+        scoop = temp;
         
-        return adcResult;
+        itoa(adcResult, str, 10);
+        UART_1_UartPutString(str);
+        CyDelay(25);  
+        UART_1_UartPutChar('\n');
+        CyDelay(25);  
+        UART_1_UartPutChar('\r');
+        CyDelay(25);  
+        
+        advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = scoop;
+        CyBle_GapUpdateAdvData(cyBle_discoveryModeInfo.advData, cyBle_discoveryModeInfo.scanRspData);
+        
+        
 }
 /* [] END OF FILE */

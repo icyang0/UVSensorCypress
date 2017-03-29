@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,25 +16,25 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   13              		.file	"cymetadata.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.profile.1813adb9,"",%progbits
+  16              		.section	.gnu.lto_.profile.183f062a,"",%progbits
   17 0000 789C6366 		.ascii	"x\234cf```d\200\002\000\000=\000\005"
   17      60606064 
   17      80020000 
   17      3D0005
   18              		.text
-  19              		.section	.gnu.lto_.inline.1813adb9,"",%progbits
+  19              		.section	.gnu.lto_.inline.183f062a,"",%progbits
   20 0000 789C6366 		.ascii	"x\234cf\300\016\230\340,\000\000\234\000\006"
   20      C00E98E0 
   20      2C00009C 
   20      0006
   21              		.text
-  22              		.section	.gnu.lto_.pureconst.1813adb9,"",%progbits
+  22              		.section	.gnu.lto_.pureconst.183f062a,"",%progbits
   23 0000 789C6366 		.ascii	"x\234cf```d\200\002\000\000=\000\005"
   23      60606064 
   23      80020000 
   23      3D0005
   24              		.text
-  25              		.section	.gnu.lto_.symbol_nodes.1813adb9,"",%progbits
+  25              		.section	.gnu.lto_.symbol_nodes.183f062a,"",%progbits
   26 0000 789C6366 		.ascii	"x\234cf``\020g\200\002V&\206\305L\365\014\254\214\214"
   26      60601067 
   26      80025626 
@@ -44,13 +44,13 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   27      44310000 
   27      2A97039C 
   28              		.text
-  29              		.section	.gnu.lto_.refs.1813adb9,"",%progbits
+  29              		.section	.gnu.lto_.refs.183f062a,"",%progbits
   30 0000 789C6366 		.ascii	"x\234cf```d\200\002\000\000=\000\005"
   30      60606064 
   30      80020000 
   30      3D0005
   31              		.text
-  32              		.section	.gnu.lto_.decls.1813adb9,"",%progbits
+  32              		.section	.gnu.lto_.decls.183f062a,"",%progbits
   33 0000 789C8597 		.ascii	"x\234\205\227\011XT\327\025\307\347\316\214,\003\016"
   33      095854D7 
   33      15C7E7CE 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   34 0010 D6A4D6D0 		.ascii	"\326\244\326\320\244\230\230X\223X\233\264\211M\323"
   34      A4989858 
   34      93589BB4 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 2
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 2
 
 
   34      894DD3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   46      C5DB3A1E 
   46      9524354B 
   46      651A96C2 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 3
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 3
 
 
   46      5460
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   58      AC728398 
   58      79406BA2 
   58      6552
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 4
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 4
 
 
   59 01c9 05522B64 		.ascii	"\005R+d\366\255\223\011\312\271Ch\224Cx\001\3736\307"
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   70 028f 79391E17 		.ascii	"y9\036\0275\177\356(V\311Q\374\030\035\274\022\022Z"
   70      357FEE28 
   70      56C951FC 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 5
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 5
 
 
   70      181DBC12 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   82      848C6D32 
   82      D4BA416B 
   82      1C443822 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 6
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 6
 
 
   82      3837570B 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
   94      AA935826 
   94      B2DB5A72 
   94      DBDC3735 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 7
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 7
 
 
   94      81D5
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  106      3C1ADF7A 
  106      7D3EC8C7 
  106      840C3B38 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 8
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 8
 
 
  106      9BAD
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  117      9290
  118 05ea 0369C366 		.ascii	"\003i\303f\354\352\233p\246Kn/\300\351\277,d\177\314"
  118      ECEA9B70 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 9
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 9
 
 
  118      A64B6E2F 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  129      62BF14F2 
  129      C0D89D
  130 06c7 121CE80D 		.ascii	"\022\034\350\015\370<\237\036\357\304\351\276\011;K"
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 10
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 10
 
 
  130      F83C9F1E 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  142 0795 191F9A35 		.ascii	"\031\037\2325\215\313\273M\310\324~\333\020\276\373"
  142      8DCBBB4D 
  142      C8D47EDB 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 11
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 11
 
 
  142      10BEFB
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  155 0868 23880789 		.ascii	"#\210\007\211\221\304C\304(\342ab41\206x\204x\224x\214"
  155      91C443C4 
  155      28E26162 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 12
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 12
 
 
  155      34318678 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  167      5E7A7CAD 
  167      DF16BFED 
  167      3E017E9B 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 13
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 13
 
 
  167      BC37
@@ -756,7 +756,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  174      66A3
  175 09c5 EFC6     		.ascii	"\357\306"
  176              		.text
- 177              		.section	.gnu.lto_.symtab.1813adb9,"",%progbits
+ 177              		.section	.gnu.lto_.symtab.183f062a,"",%progbits
  178 0000 63795F6D 		.ascii	"cy_meta_chipprotect\000\000\000\000\000\000\000\000"
  178      6574615F 
  178      63686970 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  181      6F746563 
  182 0059 00000000 		.ascii	"\000\000\000\000\000g\001\000\000"
  182      00670100 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 14
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 14
 
 
  182      00
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  221      00000000 
  221      00000000 
  222              		.text
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 15
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 15
 
 
  223              	.Letext0:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  277 005f C1000000 		.4byte	.LASF8
  278 0063 04       		.uleb128 0x4
  279 0064 C7010000 		.4byte	.LASF19
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 16
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 16
 
 
  280 0068 02       		.byte	0x2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  334 00d8 63000000 		.4byte	0x63
  335 00dc E7000000 		.4byte	0xe7
  336 00e0 06       		.uleb128 0x6
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 17
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 17
 
 
  337 00e1 94000000 		.4byte	0x94
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  391 0026 16       		.uleb128 0x16
  392 0027 00       		.byte	0
  393 0028 03       		.uleb128 0x3
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 18
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 18
 
 
  394 0029 0E       		.uleb128 0xe
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  448 0004 0200     		.2byte	0x2
  449 0006 00000000 		.4byte	.Ldebug_info0
  450 000a 04       		.byte	0x4
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 19
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 19
 
 
  451 000b 00       		.byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  475      7420756E 
  475      7369676E 
  475      65642069 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 20
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 20
 
 
  475      6E7400
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 1
  496      6F2D6F62 
  496      6A656374 
  496      7300
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cclAWP3r.s 			page 21
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccdGL8Bb.s 			page 21
 
 
  497              	.LASF19:

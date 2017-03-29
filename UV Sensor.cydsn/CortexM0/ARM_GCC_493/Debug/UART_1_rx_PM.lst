@@ -1,0 +1,1183 @@
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 2
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"UART_1_rx_PM.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.section	.gnu.lto_.profile.183f036c,"",%progbits
+  17 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006\0166\000\000\212\000\027"
+  17      60606061 
+  17      80004606 
+  17      0E360000 
+  17      8A0017
+  18              		.text
+  19              		.section	.gnu.lto_.jmpfuncs.183f036c,"",%progbits
+  20 0000 789C6366 		.ascii	"x\234cf\300\0168\2404\023\024\003\000\0018\000\020"
+  20      C00E38A0 
+  20      34131403 
+  20      00013800 
+  20      10
+  21              		.text
+  22              		.section	.gnu.lto_.inline.183f036c,"",%progbits
+  23 0000 789C6366 		.ascii	"x\234cf\300\0164\2404\023\003\003+\013#\003\023\313"
+  23      C00E34A0 
+  23      34130303 
+  23      2B0B2303 
+  23      13CB
+  24 0012 027906B6 		.ascii	"\002y\006\266\005\362L\0201\014!\006\000G\026\003\\"
+  24      05F24C10 
+  24      310C2106 
+  24      00471603 
+  24      5C
+  25              		.text
+  26              		.section	.gnu.lto_.pureconst.183f036c,"",%progbits
+  27 0000 789C6366 		.ascii	"x\234cf```e\200\000&\006)&)\000\000\373\000A"
+  27      60606065 
+  27      80002606 
+  27      29262900 
+  27      00FB0041 
+  28              		.text
+  29              		.section	.gnu.lto_UART_1_rx_Sleep.183f036c,"",%progbits
+  30 0000 789C658F 		.ascii	"x\234e\2171HBQ\024\206\317\177\236\212!D4\272\2275\030"
+  30      31484251 
+  30      1486CF7F 
+  30      9E8A2144 
+  30      34BA9735 
+  31 0015 042D2D41 		.ascii	"\004--A44\005\222\265\011\2170\327\004)h\021\337\023"
+  31      34340592 
+  31      B5098F30 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 2
+
+
+  31      D7042968 
+  31      11DF13
+  32 0028 07692869 		.ascii	"\007i(i\012\312\240!\2624%\367\340%4\005F4D\016\005"
+  32      0ACAA021 
+  32      B23425F7 
+  32      E0253405 
+  32      4634440E 
+  33 003d 61505B26 		.ascii	"aP[&\024/Q;W\227\240\013\227s\3179\377\375\316\3715"
+  33      142F513B 
+  33      5797A00B 
+  33      9773CF39 
+  33      FFFDCEF9 
+  34 0052 FA7FBC72 		.ascii	"\372\177\274rg@4&\021\032\2013U\"\323\315\200z\020("
+  34      67403426 
+  34      111A8133 
+  34      5522D3CD 
+  34      807A1028 
+  35 0066 C148E09D 		.ascii	"\301H\340\235\033\214\214\225\337\363\370\216\015\303"
+  35      1B8C8C95 
+  35      DFF3F88E 
+  35      0DC3
+  36 0074 F8A8DC98 		.ascii	"\370\250\334\230\001\0136\0235\271\317\301\011|$\242"
+  36      010B3613 
+  36      35B9CFC1 
+  36      097C24A2 
+  37 0084 46AAFDE0 		.ascii	"F\252\375\340q\245D4\324\357!\007\227\360\2514l\031"
+  37      71A54434 
+  37      D4EF2107 
+  37      97F0A934 
+  37      6C19
+  38 0096 DD6EB378 		.ascii	"\335n\263x\365\003\007\223\315R\253K_MyeVQ\253\241\362"
+  38      F5030793 
+  38      CD52AB4B 
+  38      5F4D7965 
+  38      5651ABA1 
+  39 00ab B5D5B91E 		.ascii	"\265\325\271\036P_\276Y\215,?\276\214\277\261\315\234"
+  39      505FBE59 
+  39      8D2C3FBE 
+  39      8CBFB1CD 
+  39      9C
+  40 00bc 4E660C87 		.ascii	"Nf\014\207\342?\327o\357\334\275\022\251\364\242|Y\035"
+  40      E23FD76F 
+  40      EFDCBD12 
+  40      A9F4A27C 
+  40      591D
+  41 00ce CC62DF4C 		.ascii	"\314b\337L\3116\032N\341\305\031\304\023\362\310\202"
+  41      C9361A4E 
+  41      E1C519C4 
+  41      13F2C882 
+  42 00de 6A48EE1E 		.ascii	"jH\356\036\215(\234H\017\357\267\213\034o\031i\303m"
+  42      8D289C48 
+  42      0FEFB78B 
+  42      1C6F1969 
+  42      C36D
+  43 00f0 B3A3AD76 		.ascii	"\263\243\255v\373\313s\364\322\234\231:\200\342\031"
+  43      FBCB73F4 
+  43      D29C993A 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 3
+
+
+  43      80E219
+  44 00ff 4AE54401 		.ascii	"J\345D\001q\234+\240\364:\205\235\262\313\237\027k\326"
+  44      719C2BA0 
+  44      F43A859D 
+  44      B2CB9F17 
+  44      6BD6
+  45 0111 B4CD2E14 		.ascii	"\264\315.\024E\370\331\263\217\022\374\2620=\301\264"
+  45      45F8D9B3 
+  45      8F12FCB2 
+  45      303DC1B4 
+  46 0121 5A4E354F 		.ascii	"ZN5OU\353\342Ql\211bt>\262\026\211\255\254GV\365`t#"
+  46      55EBE251 
+  46      6C896274 
+  46      3EB21689 
+  46      ADAC4756 
+  47 0139 168E8402 		.ascii	"\026\216\204\002\301\350\334ThyvqI\237\324c\233z`a\""
+  47      C1E8DC54 
+  47      68797671 
+  47      499FD463 
+  47      9B7A6061 
+  48 014e 4CBF13F5 		.ascii	"L\277\023\365\200\353"
+  48      80EB
+  49              		.text
+  50              		.section	.gnu.lto_UART_1_rx_Wakeup.183f036c,"",%progbits
+  51 0000 789C658F 		.ascii	"x\234e\217AK\002Q\020\307gfu\021\204\210.\331~\200,"
+  51      414B0251 
+  51      10C76766 
+  51      75118488 
+  51      2ED97E80 
+  52 0015 C222E8D6 		.ascii	"\302\"\350\326)\202:\005\222u\023\226\260\275&HA\027"
+  52      29823A05 
+  52      92751396 
+  52      B0BD2648 
+  52      4117
+  53 0027 F1AD6CE0 		.ascii	"\361\255l\340\251\254S`\005\035\"KS\022\352\026,}\000"
+  53      A9AC5360 
+  53      051D224B 
+  53      5312EA16 
+  53      2C7D00
+  54 003a 232A220F 		.ascii	"#*\"\017\005a`\267\314C,a6o=E\017\036\363\336\314\177"
+  54      056160B7 
+  54      CC432C61 
+  54      366F3D45 
+  54      0F1EF3DE 
+  55 0050 FEBF1905 		.ascii	"\376\277\031\005\376\037\215\357$\002\014qD\005\220"
+  55      FE1F8DEF 
+  55      24020C71 
+  55      440590
+  56 005f B25500D3 		.ascii	"\262U\000\323G\210\362\001\010)\302\024\276S\2230k\027"
+  56      4788F201 
+  56      0829C214 
+  56      BE539330 
+  56      6B17
+  57 0071 76FDC123 		.ascii	"v\375\301#!\304G\372\"\260\021p\010\240E]\033<\306 "
+  57      21C447FA 
+  57      22B01170 
+  57      08A0455D 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 4
+
+
+  57      1B3CC620 
+  58 0085 B0A669B5 		.ascii	"\260\246i\265\037\375\252\305\232\336n\015\363\250\262"
+  58      1FFDAAC5 
+  58      9ADE6E0D 
+  58      F3A8B2
+  59 0094 3D94FB6C 		.ascii	"=\224\373l\321\351\264\356\267\033c\350!p\210\223u\026"
+  59      D1E9B4EE 
+  59      B71B63E8 
+  59      21708893 
+  59      7516
+  60 00a6 48CA1B91 		.ascii	"H\312\033\221\214J\015\323\227\315\007\323/{\276H\""
+  60      8C4A0DD3 
+  60      97CD07D3 
+  60      2F7BBE48 
+  60      22
+  61 00b7 0FEE364B 		.ascii	"\017\3566K\224\374\026\031\341s\210\332\322\220\263"
+  61      94FC1619 
+  61      E17388DA 
+  61      D290B3
+  62 00c6 2FF59B5B 		.ascii	"/\365\233[_\2038\343~\363\246\265\207\373\2303\205T"
+  62      5F8338E3 
+  62      7EF3A6B5 
+  62      87FB9833 
+  62      8554
+  63 00d8 29788249 		.ascii	")x\202I<E\315\255\375\024\267*jh\304!\017\026X\363\351"
+  63      3C45CDAD 
+  63      FD14B72A 
+  63      6A68C421 
+  63      0F1658F3 
+  64 00ed 8E8B450C 		.ascii	"\216\213E\014A\015\257w\016\373%\212e\225\247\327ai"
+  64      410DAF77 
+  64      0EFB258A 
+  64      6595A7D7 
+  64      6169
+  65 00ff E8CDA4B3 		.ascii	"\350\315\244\263\302\363\207\341u}\316+W\325\036\311"
+  65      C2F387E1 
+  65      757DCE2B 
+  65      57D51EC9 
+  66 010f B04C7BC0 		.ascii	"\260L{\300!\025\317P\303\222\204`\231}yZxF\323\356\314"
+  66      2115CF50 
+  66      C3928460 
+  66      997D795A 
+  66      7846D3EE 
+  67 0124 4843C9A8 		.ascii	"HC\311\250\363\202\274\023\363\006g\215\025#\261\264"
+  67      F382BC13 
+  67      F306678D 
+  67      1523B1B4 
+  68 0134 6A2CEB91 		.ascii	"j,\353\221\370Z\"fD\303\221\370\364Dtqj~A\037\327\023"
+  68      F85A2266 
+  68      44C391F8 
+  68      F4447471 
+  68      6A7E411F 
+  69 014a EB7A786E 		.ascii	"\353zxn4\006\277\012\306~\034"
+  69      3406BF0A 
+  69      C67E1C
+  70              		.text
+  71              		.section	.gnu.lto_.symbol_nodes.183f036c,"",%progbits
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 5
+
+
+  72 0000 789C6366 		.ascii	"x\234cf``\320d\200\002&\306z\006\206\011\347\030\030"
+  72      6060D064 
+  72      800226C6 
+  72      7A068609 
+  72      E71818
+  73 0013 EAEB19E6 		.ascii	"\352\353\031\346-\340``e`X\300T\317\314\304T\317\210"
+  73      2DE06060 
+  73      656058C0 
+  73      54CFCCC4 
+  73      54CF88
+  74 0026 2CCC0000 		.ascii	",\314\000\000\310\"\011\240"
+  74      C82209A0 
+  75              		.text
+  76              		.section	.gnu.lto_.refs.183f036c,"",%progbits
+  77 0000 789C6366 		.ascii	"x\234cf``\340f\200\000F\006FF&F& \311\000\000\001l\000"
+  77      6060E066 
+  77      80004606 
+  77      46462646 
+  77      2620C900 
+  78 0018 19       		.ascii	"\031"
+  79              		.text
+  80              		.section	.gnu.lto_.decls.183f036c,"",%progbits
+  81 0000 789C8D54 		.ascii	"x\234\215TmHSa\024\276\347\336}\336\206\006BF\277\346"
+  81      6D485361 
+  81      14BEE7DE 
+  81      7DDE8606 
+  81      4246BFE6 
+  82 0014 84111141 		.ascii	"\204\021\021A\026\376M\333\017\241(\226S\372Q\260t]"
+  82      16FE4DDB 
+  82      0FA12896 
+  82      53FA51B0 
+  82      745D
+  83 0026 4A0A1DBA 		.ascii	"J\012\035\272A\376\010\336\264h\366\00150,\241n(}\230"
+  83      41FE08DE 
+  83      B468F601 
+  83      35302CA1 
+  83      6E287D98 
+  84 003a AEF9B55C 		.ascii	"\256\371\265\\\313Z\246\351D\243B\254(*\215d\330\217"
+  84      CB5AA6E9 
+  84      44A342AC 
+  84      282A8D64 
+  84      D88F
+  85 004c 26441905 		.ascii	"&D\031\005v\336\367n\336\025Z\275p\356{\316\275\317"
+  85      76DEF76E 
+  85      DE155ABD 
+  85      70EE7BCE 
+  85      BDCF
+  86 005e F3BCE73D 		.ascii	"\363\274\347=\347l\002\307qQ\264\005\\G5\0347\203\276"
+  86      E76C02C7 
+  86      7151B405 
+  86      5C47351C 
+  86      3783BE
+  87 0071 8066E7D4 		.ascii	"\200f\347\324\305\243\265\243\005\320\000m\220\373}"
+  87      C5A3B5A3 
+  87      05D0006D 
+  87      90FB7D
+  88 0080 D16FFA24 		.ascii	"\321o\372$'\007-\2066\2146\232\324\016%y\221\344\336"
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 6
+
+
+  88      27072D86 
+  88      368C369A 
+  88      D40E2579 
+  88      91E4DE
+  89 0093 BE8C4EE0 		.ascii	"\276\214N\340\017\235t~J3]g\271|\346x\010\007\276\214"
+  89      0F9D747E 
+  89      4A335D67 
+  89      B97CE678 
+  89      0807BE8C 
+  90 00a7 AF88F390 		.ascii	"\257\210\363\220!\232ix\327?\322\244\303\320$jh\030"
+  90      219A6978 
+  90      D73FD2A4 
+  90      C3D0246A 
+  90      6818
+  91 00b9 F9313DA1 		.ascii	"\3711=\241\311n$\270\316\325\223\225\032\260\257\202"
+  91      C96E24B8 
+  91      CED59395 
+  91      1AB0AF82 
+  92 00c9 EBB0066E 		.ascii	"\353\260\006n\300\032T\274\011\331\370\334\243Q\224"
+  92      C01A54BC 
+  92      09D9F8DC 
+  92      A35194
+  93 00d8 66E783E3 		.ascii	"f\347\203\343\006\201\007\352\2674MM\210\353\333\220"
+  93      068107EA 
+  93      B7344D4D 
+  93      88EBDB90 
+  94 00e8 E623D1A7 		.ascii	"\346#\321\247\274z\334\320\267\216\031\243\3712\221"
+  94      BC7ADCD0 
+  94      B78E19A3 
+  94      F93291
+  95 00f7 838970DF 		.ascii	"\203\211p\337+\023\031!\321\205\205-L\012\332@\200["
+  95      2B131921 
+  95      D185852D 
+  95      4C0ADA40 
+  95      805B
+  96 0109 B09E22A9 		.ascii	"\260\236\"\251\317(\320\016f\244u\237\354|\247\027\012"
+  96      CF28D00E 
+  96      66A4759F 
+  96      EC7CA717 
+  96      0A
+  97 011a 98F6A9D7 		.ascii	"\230\366\251\327\223a-\223\220o\264\350\024\001\306"
+  97      93612D93 
+  97      906FB4E8 
+  97      1401C6
+  98 0129 EF48E377 		.ascii	"\357H\343w\244\370\001\306\017>\270\325`d\267\334G%"
+  98      A4F801C6 
+  98      0F3EB8D5 
+  98      6064B7DC 
+  98      4725
+  99 013b BE9D4834 		.ascii	"\276\235H4\210\354\226&\03267\235\015\031\205]L}\352"
+  99      88EC9626 
+  99      1A36379D 
+  99      0D19855D 
+  99      4C7DEA
+ 100 014e E58B7B7A 		.ascii	"\345\213{z\241\202\371\307\256E\316\350\021\226#\262"
+ 100      A182F9C7 
+ 100      AE45CEE8 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 7
+
+
+ 100      119623B2 
+ 101 015e DCDF357F 		.ascii	"\334\3375\177o5\262\220\316@&\276\342#\003\376g\"X\305"
+ 101      6F35B290 
+ 101      CE4026BE 
+ 101      E22303FE 
+ 101      672258C5 
+ 102 0172 56BC6922 		.ascii	"V\274i\"\376(\260\275\236\024@\010D\350Z\314\205\261"
+ 102      FE28B0BD 
+ 102      9E144008 
+ 102      44E85ACC 
+ 102      85B1
+ 103 0184 E9F21152 		.ascii	"\351\362\021RG\253h\034\311\340\026\213\010\275`E\004"
+ 103      47AB681C 
+ 103      C9E0168B 
+ 103      08BD6045 
+ 103      04
+ 104 0195 C34237BE 		.ascii	"\303B7\276\354\301\227xV\333\371\241~\255\340\007\226"
+ 104      ECC19778 
+ 104      56DBF9A1 
+ 104      7EADE007 
+ 104      96
+ 105 01a6 C7E7B764 		.ascii	"\307\347\267d\233pI\361\277\216\3155\200\320\242\004"
+ 105      9B7049F1 
+ 105      BF8ECD35 
+ 105      80D0A204 
+ 106 01b6 AD8D17DA 		.ascii	"\255\215\027\332\265\354\036\006\014\265\243?\007/\230"
+ 106      B5EC1E06 
+ 106      0CB5A33F 
+ 106      072F98
+ 107 01c5 C09265B1 		.ascii	"\300\222e\261Xe<,\361\346\243?\343\"\221\007\200\245"
+ 107      58653C2C 
+ 107      F1E6A33F 
+ 107      E3229107 
+ 107      80A5
+ 108 01d7 740753BA 		.ascii	"t\007S\272\007Y\352\321ki\017\327\341\203;\317\032L"
+ 108      0759EAD1 
+ 108      6B690FD7 
+ 108      E1833BCF 
+ 108      1A4C
+ 109 01e9 48818783 		.ascii	"H\201\207\203\333\3709\310\332K\301\230\027<\300\024"
+ 109      DBF839C8 
+ 109      DA4BC198 
+ 109      173CC014 
+ 110 01f9 2360817E 		.ascii	"#`\201~\264\373`a\227\241\372\362X\027)8.0\361\276%"
+ 110      B4FB6061 
+ 110      97A1FAF2 
+ 110      58172938 
+ 110      2E30F1BE 
+ 111 020e C5AF531D 		.ascii	"\305\257S\035\005;\256b\303\177b\357\302b&\264\220\357"
+ 111      053BAE62 
+ 111      C37F62EF 
+ 111      C26226B4 
+ 111      90EF
+ 112 0220 6379060A 		.ascii	"cy\006\012\340R\335LM\017\377b\346Y\257\000Y\326\245"
+ 112      E052DD4C 
+ 112      4D0FFF62 
+ 112      E659AF00 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 8
+
+
+ 112      59D6A5
+ 113 0233 F2858798 		.ascii	"\362\205\207\230\346\337Rf\322Ot\000Q\004u\252\375\241"
+ 113      E6DF5266 
+ 113      D24F7400 
+ 113      510475AA 
+ 113      FDA1
+ 114 0245 27A5C6B3 		.ascii	"'\245\306\263\367g\367Y\215\360T\251n(\366f23\277\207"
+ 114      F767F759 
+ 114      8DF054A9 
+ 114      6E28F666 
+ 114      3233BF87 
+ 115 0259 F8E4D58C 		.ascii	"\370\344\325\214C\005i\213\372\223\373}e\247\320\231"
+ 115      4305698B 
+ 115      FA93FB7D 
+ 115      65A7D099 
+ 116 0269 795F5C9B 		.ascii	"y_\\\233{\225\0209\021~\331\312\037#r\035!t.\031q@9"
+ 116      7B951039 
+ 116      117ED9CA 
+ 116      1F23721D 
+ 116      21742E19 
+ 117 0280 2CADB403 		.ascii	",\255\264\003t<\341\021\344s0\010\271(\340\363\207>"
+ 117      743CE111 
+ 117      E4733008 
+ 117      B928E0F3 
+ 117      873E
+ 118 0292 698529E5 		.ascii	"i\205)\345\340\347\215sW\014\"\316K\375\377\316\013"
+ 118      E0E78D73 
+ 118      570C22CE 
+ 118      4BFDFFCE 
+ 118      0B
+ 119 02a3 7F7A3E3E 		.ascii	"\177z>>\227\001\242ui\322\310\022$Z\216`\274\376\203"
+ 119      9701A275 
+ 119      69D2C812 
+ 119      245A8E60 
+ 119      BCFE83
+ 120 02b6 89100D0C 		.ascii	"\211\020\015\014c[\206\324\222<\006q\261$}\261\316i"
+ 120      635B86D4 
+ 120      923C0671 
+ 120      B1247DB1 
+ 120      CE69
+ 121 02c8 DE744A1D 		.ascii	"\336tJ\035^\006V\377\004b`b?4\334\021\335%\277\235\315"
+ 121      5E0656FF 
+ 121      04626062 
+ 121      3F34DC11 
+ 121      DD25BF9D 
+ 122 02dd FC0D1D4D 		.ascii	"\374\015\035M\3534\007\243I4\3353K\013\213K\234\033"
+ 122      EB3407A3 
+ 122      4934DD33 
+ 122      4B0B8B4B 
+ 122      9C1B
+ 123 02ef 9DD5479C 		.ascii	"\235\325G\234\216\303\222\344\326\025\355,5\3338k\221"
+ 123      8EC392E4 
+ 123      D615ED2C 
+ 123      35DB386B 
+ 123      91
+ 124 0300 54295597 		.ascii	"T)U\227y\244\375NG\225\267\332%\355\265;\252l\233\367"
+ 124      79A4FD4E 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 9
+
+
+ 124      4795B7DA 
+ 124      25EDB53B 
+ 124      AA6C9BF7 
+ 125 0314 AA68FB8E 		.ascii	"\252h\373\216\015.n\245\032\357.;$y\335\331\352\213"
+ 125      0D2E6EA5 
+ 125      1AEF2E3B 
+ 125      2479DDD9 
+ 125      EA8B
+ 126 0326 AD85B6ED 		.ascii	"\255\205\266\355\245v\247\243\244\270\324V\242\363V"
+ 126      A576A7A3 
+ 126      A4B8D456 
+ 126      A2F356
+ 127 0335 547A36E5 		.ascii	"Tz6\345\345,#\353\252\365\324\272\245\232\015\0079\275"
+ 127      E52C23EB 
+ 127      AAF5D4BA 
+ 127      A59A0D07 
+ 127      39BD
+ 128 0347 DBE5F020 		.ascii	"\333\345\360 \300PSQ\2458\336\232r\346\344\376+%d\247"
+ 128      C0505351 
+ 128      A538DE9A 
+ 128      72E6E4FE 
+ 128      2B2564A7 
+ 129 035b E5535EE6 		.ascii	"\345S^\346:\344uk\253\245\003\233\362~\001\260j\264"
+ 129      3AE4756B 
+ 129      ABA5039B 
+ 129      F27E01B0 
+ 129      6AB4
+ 130 036d 43       		.ascii	"C"
+ 131              		.text
+ 132              		.section	.gnu.lto_.symtab.183f036c,"",%progbits
+ 133 0000 55415254 		.ascii	"UART_1_rx_Sleep\000\000\000\000\000\000\000\000\000"
+ 133      5F315F72 
+ 133      785F536C 
+ 133      65657000 
+ 133      00000000 
+ 134 0018 000000AC 		.ascii	"\000\000\000\254\000\000\000UART_1_rx_Wakeup\000\000"
+ 134      00000055 
+ 134      4152545F 
+ 134      315F7278 
+ 134      5F57616B 
+ 135 0031 00000000 		.ascii	"\000\000\000\000\000\000\000\000\000\000\256\000\000"
+ 135      00000000 
+ 135      0000AE00 
+ 135      00
+ 136 003e 00       		.ascii	"\000"
+ 137              		.text
+ 138              		.section	.gnu.lto_.opts,"",%progbits
+ 139 0000 272D666E 		.ascii	"'-fno-trapv' '-mcpu=cortex-m0' '-mthumb' '-g' '-O3'"
+ 139      6F2D7472 
+ 139      61707627 
+ 139      20272D6D 
+ 139      6370753D 
+ 140 0033 20272D66 		.ascii	" '-ffunction-sections' '-finline-functions' '-flto'"
+ 140      66756E63 
+ 140      74696F6E 
+ 140      2D736563 
+ 140      74696F6E 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 10
+
+
+ 141 0066 20272D66 		.ascii	" '-ffat-lto-objects'\000"
+ 141      6661742D 
+ 141      6C746F2D 
+ 141      6F626A65 
+ 141      63747327 
+ 142              		.text
+ 143              		.cfi_sections	.debug_frame
+ 144              		.section	.text.UART_1_rx_Sleep,"ax",%progbits
+ 145              		.align	2
+ 146              		.global	UART_1_rx_Sleep
+ 147              		.code	16
+ 148              		.thumb_func
+ 149              		.type	UART_1_rx_Sleep, %function
+ 150              	UART_1_rx_Sleep:
+ 151              	.LFB0:
+ 152              		.file 1 "Generated_Source\\PSoC4\\UART_1_rx_PM.c"
+   1:Generated_Source\PSoC4/UART_1_rx_PM.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/UART_1_rx_PM.c **** * File Name: UART_1_rx.c  
+   3:Generated_Source\PSoC4/UART_1_rx_PM.c **** * Version 2.20
+   4:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+   5:Generated_Source\PSoC4/UART_1_rx_PM.c **** * Description:
+   6:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  This file contains APIs to set up the Pins component for low power modes.
+   7:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+   8:Generated_Source\PSoC4/UART_1_rx_PM.c **** * Note:
+   9:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  10:Generated_Source\PSoC4/UART_1_rx_PM.c **** ********************************************************************************
+  11:Generated_Source\PSoC4/UART_1_rx_PM.c **** * Copyright 2015, Cypress Semiconductor Corporation.  All rights reserved.
+  12:Generated_Source\PSoC4/UART_1_rx_PM.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  13:Generated_Source\PSoC4/UART_1_rx_PM.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  14:Generated_Source\PSoC4/UART_1_rx_PM.c **** * the software package with which this file was provided.
+  15:Generated_Source\PSoC4/UART_1_rx_PM.c **** *******************************************************************************/
+  16:Generated_Source\PSoC4/UART_1_rx_PM.c **** 
+  17:Generated_Source\PSoC4/UART_1_rx_PM.c **** #include "cytypes.h"
+  18:Generated_Source\PSoC4/UART_1_rx_PM.c **** #include "UART_1_rx.h"
+  19:Generated_Source\PSoC4/UART_1_rx_PM.c **** 
+  20:Generated_Source\PSoC4/UART_1_rx_PM.c **** static UART_1_rx_BACKUP_STRUCT  UART_1_rx_backup = {0u, 0u, 0u};
+  21:Generated_Source\PSoC4/UART_1_rx_PM.c **** 
+  22:Generated_Source\PSoC4/UART_1_rx_PM.c **** 
+  23:Generated_Source\PSoC4/UART_1_rx_PM.c **** /*******************************************************************************
+  24:Generated_Source\PSoC4/UART_1_rx_PM.c **** * Function Name: UART_1_rx_Sleep
+  25:Generated_Source\PSoC4/UART_1_rx_PM.c **** ****************************************************************************//**
+  26:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  27:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \brief Stores the pin configuration and prepares the pin for entering chip 
+  28:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  deep-sleep/hibernate modes. This function must be called for SIO and USBIO
+  29:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  pins. It is not essential if using GPIO or GPIO_OVT pins.
+  30:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  31:Generated_Source\PSoC4/UART_1_rx_PM.c **** * <b>Note</b> This function is available in PSoC 4 only.
+  32:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  33:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \return 
+  34:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  None 
+  35:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  
+  36:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \sideeffect
+  37:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  For SIO pins, this function configures the pin input threshold to CMOS and
+  38:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  drive level to Vddio. This is needed for SIO pins when in device 
+  39:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  deep-sleep/hibernate modes.
+  40:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  41:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \funcusage
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 11
+
+
+  42:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  \snippet UART_1_rx_SUT.c usage_UART_1_rx_Sleep_Wakeup
+  43:Generated_Source\PSoC4/UART_1_rx_PM.c **** *******************************************************************************/
+  44:Generated_Source\PSoC4/UART_1_rx_PM.c **** void UART_1_rx_Sleep(void)
+  45:Generated_Source\PSoC4/UART_1_rx_PM.c **** {
+ 153              		.loc 1 45 0
+ 154              		.cfi_startproc
+  46:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #if defined(UART_1_rx__PC)
+  47:Generated_Source\PSoC4/UART_1_rx_PM.c ****         UART_1_rx_backup.pcState = UART_1_rx_PC;
+ 155              		.loc 1 47 0
+ 156 0000 024B     		ldr	r3, .L2
+  48:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #else
+  49:Generated_Source\PSoC4/UART_1_rx_PM.c ****         #if (CY_PSOC4_4200L)
+  50:Generated_Source\PSoC4/UART_1_rx_PM.c ****             /* Save the regulator state and put the PHY into suspend mode */
+  51:Generated_Source\PSoC4/UART_1_rx_PM.c ****             UART_1_rx_backup.usbState = UART_1_rx_CR1_REG;
+  52:Generated_Source\PSoC4/UART_1_rx_PM.c ****             UART_1_rx_USB_POWER_REG |= UART_1_rx_USBIO_ENTER_SLEEP;
+  53:Generated_Source\PSoC4/UART_1_rx_PM.c ****             UART_1_rx_CR1_REG &= UART_1_rx_USBIO_CR1_OFF;
+  54:Generated_Source\PSoC4/UART_1_rx_PM.c ****         #endif
+  55:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #endif
+  56:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(UART_1_rx__SIO)
+  57:Generated_Source\PSoC4/UART_1_rx_PM.c ****         UART_1_rx_backup.sioState = UART_1_rx_SIO_REG;
+  58:Generated_Source\PSoC4/UART_1_rx_PM.c ****         /* SIO requires unregulated output buffer and single ended input buffer */
+  59:Generated_Source\PSoC4/UART_1_rx_PM.c ****         UART_1_rx_SIO_REG &= (uint32)(~UART_1_rx_SIO_LPM_MASK);
+  60:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #endif  
+  61:Generated_Source\PSoC4/UART_1_rx_PM.c **** }
+ 157              		.loc 1 61 0
+ 158              		@ sp needed
+  47:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #else
+ 159              		.loc 1 47 0
+ 160 0002 1A68     		ldr	r2, [r3]
+ 161 0004 024B     		ldr	r3, .L2+4
+ 162 0006 1A60     		str	r2, [r3]
+ 163              		.loc 1 61 0
+ 164 0008 7047     		bx	lr
+ 165              	.L3:
+ 166 000a C046     		.align	2
+ 167              	.L2:
+ 168 000c 08010440 		.word	1074004232
+ 169 0010 00000000 		.word	.LANCHOR0
+ 170              		.cfi_endproc
+ 171              	.LFE0:
+ 172              		.size	UART_1_rx_Sleep, .-UART_1_rx_Sleep
+ 173              		.section	.text.UART_1_rx_Wakeup,"ax",%progbits
+ 174              		.align	2
+ 175              		.global	UART_1_rx_Wakeup
+ 176              		.code	16
+ 177              		.thumb_func
+ 178              		.type	UART_1_rx_Wakeup, %function
+ 179              	UART_1_rx_Wakeup:
+ 180              	.LFB1:
+  62:Generated_Source\PSoC4/UART_1_rx_PM.c **** 
+  63:Generated_Source\PSoC4/UART_1_rx_PM.c **** 
+  64:Generated_Source\PSoC4/UART_1_rx_PM.c **** /*******************************************************************************
+  65:Generated_Source\PSoC4/UART_1_rx_PM.c **** * Function Name: UART_1_rx_Wakeup
+  66:Generated_Source\PSoC4/UART_1_rx_PM.c **** ****************************************************************************//**
+  67:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  68:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \brief Restores the pin configuration that was saved during Pin_Sleep().
+  69:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 12
+
+
+  70:Generated_Source\PSoC4/UART_1_rx_PM.c **** * For USBIO pins, the wakeup is only triggered for falling edge interrupts.
+  71:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  72:Generated_Source\PSoC4/UART_1_rx_PM.c **** * <b>Note</b> This function is available in PSoC 4 only.
+  73:Generated_Source\PSoC4/UART_1_rx_PM.c **** *
+  74:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \return 
+  75:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  None
+  76:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  
+  77:Generated_Source\PSoC4/UART_1_rx_PM.c **** * \funcusage
+  78:Generated_Source\PSoC4/UART_1_rx_PM.c **** *  Refer to UART_1_rx_Sleep() for an example usage.
+  79:Generated_Source\PSoC4/UART_1_rx_PM.c **** *******************************************************************************/
+  80:Generated_Source\PSoC4/UART_1_rx_PM.c **** void UART_1_rx_Wakeup(void)
+  81:Generated_Source\PSoC4/UART_1_rx_PM.c **** {
+ 181              		.loc 1 81 0
+ 182              		.cfi_startproc
+  82:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #if defined(UART_1_rx__PC)
+  83:Generated_Source\PSoC4/UART_1_rx_PM.c ****         UART_1_rx_PC = UART_1_rx_backup.pcState;
+ 183              		.loc 1 83 0
+ 184 0000 024B     		ldr	r3, .L5
+  84:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #else
+  85:Generated_Source\PSoC4/UART_1_rx_PM.c ****         #if (CY_PSOC4_4200L)
+  86:Generated_Source\PSoC4/UART_1_rx_PM.c ****             /* Restore the regulator state and come out of suspend mode */
+  87:Generated_Source\PSoC4/UART_1_rx_PM.c ****             UART_1_rx_USB_POWER_REG &= UART_1_rx_USBIO_EXIT_SLEEP_PH1;
+  88:Generated_Source\PSoC4/UART_1_rx_PM.c ****             UART_1_rx_CR1_REG = UART_1_rx_backup.usbState;
+  89:Generated_Source\PSoC4/UART_1_rx_PM.c ****             UART_1_rx_USB_POWER_REG &= UART_1_rx_USBIO_EXIT_SLEEP_PH2;
+  90:Generated_Source\PSoC4/UART_1_rx_PM.c ****         #endif
+  91:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #endif
+  92:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #if defined(CYIPBLOCK_m0s8ioss_VERSION) && defined(UART_1_rx__SIO)
+  93:Generated_Source\PSoC4/UART_1_rx_PM.c ****         UART_1_rx_SIO_REG = UART_1_rx_backup.sioState;
+  94:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #endif
+  95:Generated_Source\PSoC4/UART_1_rx_PM.c **** }
+ 185              		.loc 1 95 0
+ 186              		@ sp needed
+  83:Generated_Source\PSoC4/UART_1_rx_PM.c ****     #else
+ 187              		.loc 1 83 0
+ 188 0002 1A68     		ldr	r2, [r3]
+ 189 0004 024B     		ldr	r3, .L5+4
+ 190 0006 1A60     		str	r2, [r3]
+ 191              		.loc 1 95 0
+ 192 0008 7047     		bx	lr
+ 193              	.L6:
+ 194 000a C046     		.align	2
+ 195              	.L5:
+ 196 000c 00000000 		.word	.LANCHOR0
+ 197 0010 08010440 		.word	1074004232
+ 198              		.cfi_endproc
+ 199              	.LFE1:
+ 200              		.size	UART_1_rx_Wakeup, .-UART_1_rx_Wakeup
+ 201              		.bss
+ 202              		.align	2
+ 203              		.set	.LANCHOR0,. + 0
+ 204              		.type	UART_1_rx_backup, %object
+ 205              		.size	UART_1_rx_backup, 12
+ 206              	UART_1_rx_backup:
+ 207 0000 00000000 		.space	12
+ 207      00000000 
+ 207      00000000 
+ 208              		.text
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 13
+
+
+ 209              	.Letext0:
+ 210              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 211              		.file 3 "Generated_Source\\PSoC4\\UART_1_rx.h"
+ 212              		.section	.debug_info,"",%progbits
+ 213              	.Ldebug_info0:
+ 214 0000 05010000 		.4byte	0x105
+ 215 0004 0400     		.2byte	0x4
+ 216 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 217 000a 04       		.byte	0x4
+ 218 000b 01       		.uleb128 0x1
+ 219 000c 4D010000 		.4byte	.LASF20
+ 220 0010 01       		.byte	0x1
+ 221 0011 6E000000 		.4byte	.LASF21
+ 222 0015 20000000 		.4byte	.LASF22
+ 223 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 224 001d 00000000 		.4byte	0
+ 225 0021 00000000 		.4byte	.Ldebug_line0
+ 226 0025 02       		.uleb128 0x2
+ 227 0026 01       		.byte	0x1
+ 228 0027 06       		.byte	0x6
+ 229 0028 05020000 		.4byte	.LASF0
+ 230 002c 02       		.uleb128 0x2
+ 231 002d 01       		.byte	0x1
+ 232 002e 08       		.byte	0x8
+ 233 002f 9A000000 		.4byte	.LASF1
+ 234 0033 02       		.uleb128 0x2
+ 235 0034 02       		.byte	0x2
+ 236 0035 05       		.byte	0x5
+ 237 0036 43010000 		.4byte	.LASF2
+ 238 003a 02       		.uleb128 0x2
+ 239 003b 02       		.byte	0x2
+ 240 003c 07       		.byte	0x7
+ 241 003d BA000000 		.4byte	.LASF3
+ 242 0041 02       		.uleb128 0x2
+ 243 0042 04       		.byte	0x4
+ 244 0043 05       		.byte	0x5
+ 245 0044 FC010000 		.4byte	.LASF4
+ 246 0048 02       		.uleb128 0x2
+ 247 0049 04       		.byte	0x4
+ 248 004a 07       		.byte	0x7
+ 249 004b A8000000 		.4byte	.LASF5
+ 250 004f 02       		.uleb128 0x2
+ 251 0050 08       		.byte	0x8
+ 252 0051 05       		.byte	0x5
+ 253 0052 30010000 		.4byte	.LASF6
+ 254 0056 02       		.uleb128 0x2
+ 255 0057 08       		.byte	0x8
+ 256 0058 07       		.byte	0x7
+ 257 0059 00010000 		.4byte	.LASF7
+ 258 005d 03       		.uleb128 0x3
+ 259 005e 04       		.byte	0x4
+ 260 005f 05       		.byte	0x5
+ 261 0060 696E7400 		.ascii	"int\000"
+ 262 0064 02       		.uleb128 0x2
+ 263 0065 04       		.byte	0x4
+ 264 0066 07       		.byte	0x7
+ 265 0067 F3000000 		.4byte	.LASF8
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 14
+
+
+ 266 006b 04       		.uleb128 0x4
+ 267 006c EC000000 		.4byte	.LASF12
+ 268 0070 02       		.byte	0x2
+ 269 0071 9A01     		.2byte	0x19a
+ 270 0073 48000000 		.4byte	0x48
+ 271 0077 02       		.uleb128 0x2
+ 272 0078 04       		.byte	0x4
+ 273 0079 04       		.byte	0x4
+ 274 007a 94000000 		.4byte	.LASF9
+ 275 007e 02       		.uleb128 0x2
+ 276 007f 08       		.byte	0x8
+ 277 0080 04       		.byte	0x4
+ 278 0081 CD000000 		.4byte	.LASF10
+ 279 0085 02       		.uleb128 0x2
+ 280 0086 01       		.byte	0x1
+ 281 0087 08       		.byte	0x8
+ 282 0088 3E010000 		.4byte	.LASF11
+ 283 008c 04       		.uleb128 0x4
+ 284 008d 00000000 		.4byte	.LASF13
+ 285 0091 02       		.byte	0x2
+ 286 0092 4402     		.2byte	0x244
+ 287 0094 98000000 		.4byte	0x98
+ 288 0098 05       		.uleb128 0x5
+ 289 0099 6B000000 		.4byte	0x6b
+ 290 009d 06       		.uleb128 0x6
+ 291 009e 0C       		.byte	0xc
+ 292 009f 03       		.byte	0x3
+ 293 00a0 21       		.byte	0x21
+ 294 00a1 CA000000 		.4byte	0xca
+ 295 00a5 07       		.uleb128 0x7
+ 296 00a6 F4010000 		.4byte	.LASF14
+ 297 00aa 03       		.byte	0x3
+ 298 00ab 23       		.byte	0x23
+ 299 00ac 6B000000 		.4byte	0x6b
+ 300 00b0 00       		.byte	0
+ 301 00b1 07       		.uleb128 0x7
+ 302 00b2 27010000 		.4byte	.LASF15
+ 303 00b6 03       		.byte	0x3
+ 304 00b7 24       		.byte	0x24
+ 305 00b8 6B000000 		.4byte	0x6b
+ 306 00bc 04       		.byte	0x4
+ 307 00bd 07       		.uleb128 0x7
+ 308 00be 06000000 		.4byte	.LASF16
+ 309 00c2 03       		.byte	0x3
+ 310 00c3 25       		.byte	0x25
+ 311 00c4 6B000000 		.4byte	0x6b
+ 312 00c8 08       		.byte	0x8
+ 313 00c9 00       		.byte	0
+ 314 00ca 08       		.uleb128 0x8
+ 315 00cb D4000000 		.4byte	.LASF17
+ 316 00cf 03       		.byte	0x3
+ 317 00d0 26       		.byte	0x26
+ 318 00d1 9D000000 		.4byte	0x9d
+ 319 00d5 09       		.uleb128 0x9
+ 320 00d6 17010000 		.4byte	.LASF18
+ 321 00da 01       		.byte	0x1
+ 322 00db 2C       		.byte	0x2c
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 15
+
+
+ 323 00dc 00000000 		.4byte	.LFB0
+ 324 00e0 14000000 		.4byte	.LFE0-.LFB0
+ 325 00e4 01       		.uleb128 0x1
+ 326 00e5 9C       		.byte	0x9c
+ 327 00e6 09       		.uleb128 0x9
+ 328 00e7 5D000000 		.4byte	.LASF19
+ 329 00eb 01       		.byte	0x1
+ 330 00ec 50       		.byte	0x50
+ 331 00ed 00000000 		.4byte	.LFB1
+ 332 00f1 14000000 		.4byte	.LFE1-.LFB1
+ 333 00f5 01       		.uleb128 0x1
+ 334 00f6 9C       		.byte	0x9c
+ 335 00f7 0A       		.uleb128 0xa
+ 336 00f8 0F000000 		.4byte	.LASF23
+ 337 00fc 01       		.byte	0x1
+ 338 00fd 14       		.byte	0x14
+ 339 00fe CA000000 		.4byte	0xca
+ 340 0102 05       		.uleb128 0x5
+ 341 0103 03       		.byte	0x3
+ 342 0104 00000000 		.4byte	UART_1_rx_backup
+ 343 0108 00       		.byte	0
+ 344              		.section	.debug_abbrev,"",%progbits
+ 345              	.Ldebug_abbrev0:
+ 346 0000 01       		.uleb128 0x1
+ 347 0001 11       		.uleb128 0x11
+ 348 0002 01       		.byte	0x1
+ 349 0003 25       		.uleb128 0x25
+ 350 0004 0E       		.uleb128 0xe
+ 351 0005 13       		.uleb128 0x13
+ 352 0006 0B       		.uleb128 0xb
+ 353 0007 03       		.uleb128 0x3
+ 354 0008 0E       		.uleb128 0xe
+ 355 0009 1B       		.uleb128 0x1b
+ 356 000a 0E       		.uleb128 0xe
+ 357 000b 55       		.uleb128 0x55
+ 358 000c 17       		.uleb128 0x17
+ 359 000d 11       		.uleb128 0x11
+ 360 000e 01       		.uleb128 0x1
+ 361 000f 10       		.uleb128 0x10
+ 362 0010 17       		.uleb128 0x17
+ 363 0011 00       		.byte	0
+ 364 0012 00       		.byte	0
+ 365 0013 02       		.uleb128 0x2
+ 366 0014 24       		.uleb128 0x24
+ 367 0015 00       		.byte	0
+ 368 0016 0B       		.uleb128 0xb
+ 369 0017 0B       		.uleb128 0xb
+ 370 0018 3E       		.uleb128 0x3e
+ 371 0019 0B       		.uleb128 0xb
+ 372 001a 03       		.uleb128 0x3
+ 373 001b 0E       		.uleb128 0xe
+ 374 001c 00       		.byte	0
+ 375 001d 00       		.byte	0
+ 376 001e 03       		.uleb128 0x3
+ 377 001f 24       		.uleb128 0x24
+ 378 0020 00       		.byte	0
+ 379 0021 0B       		.uleb128 0xb
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 16
+
+
+ 380 0022 0B       		.uleb128 0xb
+ 381 0023 3E       		.uleb128 0x3e
+ 382 0024 0B       		.uleb128 0xb
+ 383 0025 03       		.uleb128 0x3
+ 384 0026 08       		.uleb128 0x8
+ 385 0027 00       		.byte	0
+ 386 0028 00       		.byte	0
+ 387 0029 04       		.uleb128 0x4
+ 388 002a 16       		.uleb128 0x16
+ 389 002b 00       		.byte	0
+ 390 002c 03       		.uleb128 0x3
+ 391 002d 0E       		.uleb128 0xe
+ 392 002e 3A       		.uleb128 0x3a
+ 393 002f 0B       		.uleb128 0xb
+ 394 0030 3B       		.uleb128 0x3b
+ 395 0031 05       		.uleb128 0x5
+ 396 0032 49       		.uleb128 0x49
+ 397 0033 13       		.uleb128 0x13
+ 398 0034 00       		.byte	0
+ 399 0035 00       		.byte	0
+ 400 0036 05       		.uleb128 0x5
+ 401 0037 35       		.uleb128 0x35
+ 402 0038 00       		.byte	0
+ 403 0039 49       		.uleb128 0x49
+ 404 003a 13       		.uleb128 0x13
+ 405 003b 00       		.byte	0
+ 406 003c 00       		.byte	0
+ 407 003d 06       		.uleb128 0x6
+ 408 003e 13       		.uleb128 0x13
+ 409 003f 01       		.byte	0x1
+ 410 0040 0B       		.uleb128 0xb
+ 411 0041 0B       		.uleb128 0xb
+ 412 0042 3A       		.uleb128 0x3a
+ 413 0043 0B       		.uleb128 0xb
+ 414 0044 3B       		.uleb128 0x3b
+ 415 0045 0B       		.uleb128 0xb
+ 416 0046 01       		.uleb128 0x1
+ 417 0047 13       		.uleb128 0x13
+ 418 0048 00       		.byte	0
+ 419 0049 00       		.byte	0
+ 420 004a 07       		.uleb128 0x7
+ 421 004b 0D       		.uleb128 0xd
+ 422 004c 00       		.byte	0
+ 423 004d 03       		.uleb128 0x3
+ 424 004e 0E       		.uleb128 0xe
+ 425 004f 3A       		.uleb128 0x3a
+ 426 0050 0B       		.uleb128 0xb
+ 427 0051 3B       		.uleb128 0x3b
+ 428 0052 0B       		.uleb128 0xb
+ 429 0053 49       		.uleb128 0x49
+ 430 0054 13       		.uleb128 0x13
+ 431 0055 38       		.uleb128 0x38
+ 432 0056 0B       		.uleb128 0xb
+ 433 0057 00       		.byte	0
+ 434 0058 00       		.byte	0
+ 435 0059 08       		.uleb128 0x8
+ 436 005a 16       		.uleb128 0x16
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 17
+
+
+ 437 005b 00       		.byte	0
+ 438 005c 03       		.uleb128 0x3
+ 439 005d 0E       		.uleb128 0xe
+ 440 005e 3A       		.uleb128 0x3a
+ 441 005f 0B       		.uleb128 0xb
+ 442 0060 3B       		.uleb128 0x3b
+ 443 0061 0B       		.uleb128 0xb
+ 444 0062 49       		.uleb128 0x49
+ 445 0063 13       		.uleb128 0x13
+ 446 0064 00       		.byte	0
+ 447 0065 00       		.byte	0
+ 448 0066 09       		.uleb128 0x9
+ 449 0067 2E       		.uleb128 0x2e
+ 450 0068 00       		.byte	0
+ 451 0069 3F       		.uleb128 0x3f
+ 452 006a 19       		.uleb128 0x19
+ 453 006b 03       		.uleb128 0x3
+ 454 006c 0E       		.uleb128 0xe
+ 455 006d 3A       		.uleb128 0x3a
+ 456 006e 0B       		.uleb128 0xb
+ 457 006f 3B       		.uleb128 0x3b
+ 458 0070 0B       		.uleb128 0xb
+ 459 0071 27       		.uleb128 0x27
+ 460 0072 19       		.uleb128 0x19
+ 461 0073 11       		.uleb128 0x11
+ 462 0074 01       		.uleb128 0x1
+ 463 0075 12       		.uleb128 0x12
+ 464 0076 06       		.uleb128 0x6
+ 465 0077 40       		.uleb128 0x40
+ 466 0078 18       		.uleb128 0x18
+ 467 0079 9742     		.uleb128 0x2117
+ 468 007b 19       		.uleb128 0x19
+ 469 007c 00       		.byte	0
+ 470 007d 00       		.byte	0
+ 471 007e 0A       		.uleb128 0xa
+ 472 007f 34       		.uleb128 0x34
+ 473 0080 00       		.byte	0
+ 474 0081 03       		.uleb128 0x3
+ 475 0082 0E       		.uleb128 0xe
+ 476 0083 3A       		.uleb128 0x3a
+ 477 0084 0B       		.uleb128 0xb
+ 478 0085 3B       		.uleb128 0x3b
+ 479 0086 0B       		.uleb128 0xb
+ 480 0087 49       		.uleb128 0x49
+ 481 0088 13       		.uleb128 0x13
+ 482 0089 02       		.uleb128 0x2
+ 483 008a 18       		.uleb128 0x18
+ 484 008b 00       		.byte	0
+ 485 008c 00       		.byte	0
+ 486 008d 00       		.byte	0
+ 487              		.section	.debug_aranges,"",%progbits
+ 488 0000 24000000 		.4byte	0x24
+ 489 0004 0200     		.2byte	0x2
+ 490 0006 00000000 		.4byte	.Ldebug_info0
+ 491 000a 04       		.byte	0x4
+ 492 000b 00       		.byte	0
+ 493 000c 0000     		.2byte	0
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 18
+
+
+ 494 000e 0000     		.2byte	0
+ 495 0010 00000000 		.4byte	.LFB0
+ 496 0014 14000000 		.4byte	.LFE0-.LFB0
+ 497 0018 00000000 		.4byte	.LFB1
+ 498 001c 14000000 		.4byte	.LFE1-.LFB1
+ 499 0020 00000000 		.4byte	0
+ 500 0024 00000000 		.4byte	0
+ 501              		.section	.debug_ranges,"",%progbits
+ 502              	.Ldebug_ranges0:
+ 503 0000 00000000 		.4byte	.LFB0
+ 504 0004 14000000 		.4byte	.LFE0
+ 505 0008 00000000 		.4byte	.LFB1
+ 506 000c 14000000 		.4byte	.LFE1
+ 507 0010 00000000 		.4byte	0
+ 508 0014 00000000 		.4byte	0
+ 509              		.section	.debug_line,"",%progbits
+ 510              	.Ldebug_line0:
+ 511 0000 91000000 		.section	.debug_str,"MS",%progbits,1
+ 511      02005800 
+ 511      00000201 
+ 511      FB0E0D00 
+ 511      01010101 
+ 512              	.LASF13:
+ 513 0000 72656733 		.ascii	"reg32\000"
+ 513      3200
+ 514              	.LASF16:
+ 515 0006 75736253 		.ascii	"usbState\000"
+ 515      74617465 
+ 515      00
+ 516              	.LASF23:
+ 517 000f 55415254 		.ascii	"UART_1_rx_backup\000"
+ 517      5F315F72 
+ 517      785F6261 
+ 517      636B7570 
+ 517      00
+ 518              	.LASF22:
+ 519 0020 443A5C44 		.ascii	"D:\\Dropbox\\blog\\UV sensor\\SW\\UVSensorCypress\\"
+ 519      726F7062 
+ 519      6F785C62 
+ 519      6C6F675C 
+ 519      55562073 
+ 520 004d 55562053 		.ascii	"UV Sensor.cydsn\000"
+ 520      656E736F 
+ 520      722E6379 
+ 520      64736E00 
+ 521              	.LASF19:
+ 522 005d 55415254 		.ascii	"UART_1_rx_Wakeup\000"
+ 522      5F315F72 
+ 522      785F5761 
+ 522      6B657570 
+ 522      00
+ 523              	.LASF21:
+ 524 006e 47656E65 		.ascii	"Generated_Source\\PSoC4\\UART_1_rx_PM.c\000"
+ 524      72617465 
+ 524      645F536F 
+ 524      75726365 
+ 524      5C50536F 
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 19
+
+
+ 525              	.LASF9:
+ 526 0094 666C6F61 		.ascii	"float\000"
+ 526      7400
+ 527              	.LASF1:
+ 528 009a 756E7369 		.ascii	"unsigned char\000"
+ 528      676E6564 
+ 528      20636861 
+ 528      7200
+ 529              	.LASF5:
+ 530 00a8 6C6F6E67 		.ascii	"long unsigned int\000"
+ 530      20756E73 
+ 530      69676E65 
+ 530      6420696E 
+ 530      7400
+ 531              	.LASF3:
+ 532 00ba 73686F72 		.ascii	"short unsigned int\000"
+ 532      7420756E 
+ 532      7369676E 
+ 532      65642069 
+ 532      6E7400
+ 533              	.LASF10:
+ 534 00cd 646F7562 		.ascii	"double\000"
+ 534      6C6500
+ 535              	.LASF17:
+ 536 00d4 55415254 		.ascii	"UART_1_rx_BACKUP_STRUCT\000"
+ 536      5F315F72 
+ 536      785F4241 
+ 536      434B5550 
+ 536      5F535452 
+ 537              	.LASF12:
+ 538 00ec 75696E74 		.ascii	"uint32\000"
+ 538      333200
+ 539              	.LASF8:
+ 540 00f3 756E7369 		.ascii	"unsigned int\000"
+ 540      676E6564 
+ 540      20696E74 
+ 540      00
+ 541              	.LASF7:
+ 542 0100 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 542      206C6F6E 
+ 542      6720756E 
+ 542      7369676E 
+ 542      65642069 
+ 543              	.LASF18:
+ 544 0117 55415254 		.ascii	"UART_1_rx_Sleep\000"
+ 544      5F315F72 
+ 544      785F536C 
+ 544      65657000 
+ 545              	.LASF15:
+ 546 0127 73696F53 		.ascii	"sioState\000"
+ 546      74617465 
+ 546      00
+ 547              	.LASF6:
+ 548 0130 6C6F6E67 		.ascii	"long long int\000"
+ 548      206C6F6E 
+ 548      6720696E 
+ 548      7400
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cc1UNO35.s 			page 20
+
+
+ 549              	.LASF11:
+ 550 013e 63686172 		.ascii	"char\000"
+ 550      00
+ 551              	.LASF2:
+ 552 0143 73686F72 		.ascii	"short int\000"
+ 552      7420696E 
+ 552      7400
+ 553              	.LASF20:
+ 554 014d 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 554      4320342E 
+ 554      392E3320 
+ 554      32303135 
+ 554      30333033 
+ 555 0180 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 555      20726576 
+ 555      6973696F 
+ 555      6E203232 
+ 555      31323230 
+ 556 01b3 33202D66 		.ascii	"3 -ffunction-sections -finline-functions -flto -ffa"
+ 556      66756E63 
+ 556      74696F6E 
+ 556      2D736563 
+ 556      74696F6E 
+ 557 01e6 742D6C74 		.ascii	"t-lto-objects\000"
+ 557      6F2D6F62 
+ 557      6A656374 
+ 557      7300
+ 558              	.LASF14:
+ 559 01f4 70635374 		.ascii	"pcState\000"
+ 559      61746500 
+ 560              	.LASF4:
+ 561 01fc 6C6F6E67 		.ascii	"long int\000"
+ 561      20696E74 
+ 561      00
+ 562              	.LASF0:
+ 563 0205 7369676E 		.ascii	"signed char\000"
+ 563      65642063 
+ 563      68617200 
+ 564              		.comm	__gnu_lto_v1,1,1
+ 565              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

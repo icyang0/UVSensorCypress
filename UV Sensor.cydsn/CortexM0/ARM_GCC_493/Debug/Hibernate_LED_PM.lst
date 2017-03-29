@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,21 +16,21 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   13              		.file	"Hibernate_LED_PM.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.profile.18138092,"",%progbits
+  16              		.section	.gnu.lto_.profile.183f20ae,"",%progbits
   17 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006\0166\000\000\212\000\027"
   17      60606061 
   17      80004606 
   17      0E360000 
   17      8A0017
   18              		.text
-  19              		.section	.gnu.lto_.jmpfuncs.18138092,"",%progbits
+  19              		.section	.gnu.lto_.jmpfuncs.183f20ae,"",%progbits
   20 0000 789C6366 		.ascii	"x\234cf\300\0168\2404\023\024\003\000\0018\000\020"
   20      C00E38A0 
   20      34131403 
   20      00013800 
   20      10
   21              		.text
-  22              		.section	.gnu.lto_.inline.18138092,"",%progbits
+  22              		.section	.gnu.lto_.inline.183f20ae,"",%progbits
   23 0000 789C6366 		.ascii	"x\234cf\300\0164\2404\023\003\003+\013#\003\023\313"
   23      C00E34A0 
   23      34130303 
@@ -42,14 +42,14 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   24      00471603 
   24      5C
   25              		.text
-  26              		.section	.gnu.lto_.pureconst.18138092,"",%progbits
+  26              		.section	.gnu.lto_.pureconst.183f20ae,"",%progbits
   27 0000 789C6366 		.ascii	"x\234cf```e\200\000&\006)&)\000\000\373\000A"
   27      60606065 
   27      80002606 
   27      29262900 
   27      00FB0041 
   28              		.text
-  29              		.section	.gnu.lto_Hibernate_LED_Sleep.18138092,"",%progbits
+  29              		.section	.gnu.lto_Hibernate_LED_Sleep.183f20ae,"",%progbits
   30 0000 789C654F 		.ascii	"x\234eO1KBa\024\275\347\372\024C\210h\364\017\010\221"
   30      314B4261 
   30      14BDE7FA 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   31 0014 4DADD150 		.ascii	"M\255\321PQC\201\340*H\331\033Z\024\244F\361\275x\201"
   31      514381E0 
   31      2A48D91B 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 2
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 2
 
 
   31      5A14A446 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   43      D5323286 
   43      D761ADAD 
   43      96FBAB
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 3
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 3
 
 
   44 00f6 A7F5DABC 		.ascii	"\247\365\332\274i\035@\351\031\212\345F\021)\234+A\231"
@@ -147,7 +147,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   48      5B83
   49 0155 2C       		.ascii	","
   50              		.text
-  51              		.section	.gnu.lto_Hibernate_LED_Wakeup.18138092,"",%progbits
+  51              		.section	.gnu.lto_Hibernate_LED_Wakeup.183f20ae,"",%progbits
   52 0000 789C658F 		.ascii	"x\234e\217?HBQ\024\306\3179O\037\206\024\321dB\263P"
   52      3F484251 
   52      14C6CF39 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   57      2F809026 
   57      4CE33B59 
   57      8439B3
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 4
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 4
 
 
   58 0070 B8ED0D1C 		.ascii	"\270\355\015\034\012!>2\347\2765\237M\000M\352\304\340"
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   69      644C8B84 
   69      C28989B1 
   69      C8ECF2
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 5
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 5
 
 
   70 0145 A2968CB3 		.ascii	"\242\226\214\263\036\235\233\232\214\206\346Gb\360\013"
@@ -247,7 +247,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   70      62F00B
   71 0154 D281809D 		.ascii	"\322\201\200\235"
   72              		.text
-  73              		.section	.gnu.lto_.symbol_nodes.18138092,"",%progbits
+  73              		.section	.gnu.lto_.symbol_nodes.183f20ae,"",%progbits
   74 0000 789C6366 		.ascii	"x\234cf``\320d\200\002&\306z\006\206\011\347\030\030"
   74      6060D064 
   74      800226C6 
@@ -261,7 +261,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   76 0026 2CCC0000 		.ascii	",\314\000\000\310\"\011\240"
   76      C82209A0 
   77              		.text
-  78              		.section	.gnu.lto_.refs.18138092,"",%progbits
+  78              		.section	.gnu.lto_.refs.183f20ae,"",%progbits
   79 0000 789C6366 		.ascii	"x\234cf``\340f\200\000F\006FF&F& \311\000\000\001l\000"
   79      6060E066 
   79      80004606 
@@ -269,7 +269,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   79      2620C900 
   80 0018 19       		.ascii	"\031"
   81              		.text
-  82              		.section	.gnu.lto_.decls.18138092,"",%progbits
+  82              		.section	.gnu.lto_.decls.183f20ae,"",%progbits
   83 0000 789C8D54 		.ascii	"x\234\215ToHSQ\024\177\347\275m\316\327\322\300\250"
   83      6F485351 
   83      147FE7BD 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   88 0059 3DF7BEDF 		.ascii	"=\367\276\337\357w\316\275\347\274'p\034\347C\233\304"
   88      EF77CEBD 
   88      E7BC2770 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 6
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 6
 
 
   88      1CE7439B 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   99      F15BEF37 
  100 0136 24B353EE 		.ascii	"$\263S\356\243\022?\252C5\";\245\206.\177\177\277\326"
  100      A3123FAA 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 7
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 7
 
 
  100      4335223B 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  112      470526DE 
  112      39A3F80D 
  112      AA23
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 8
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 8
 
 
  113 0214 631FC7B0 		.ascii	"c\037\307\260]\323\261\3350\225\011\275\310w\301\034"
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  124      D0
  125 02e2 BEB85273 		.ascii	"\276\270Rs0\024A\3239mSQ\241TVR`\225L[7\2547\031\017"
  125      301441D3 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 9
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 9
 
 
  125      396D5351 
@@ -517,7 +517,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  132      F30F98C7 
  132      C059
  133              		.text
- 134              		.section	.gnu.lto_.symtab.18138092,"",%progbits
+ 134              		.section	.gnu.lto_.symtab.183f20ae,"",%progbits
  135 0000 48696265 		.ascii	"Hibernate_LED_Sleep\000\000\000\000\000\000\000\000"
  135      726E6174 
  135      655F4C45 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  141 0000 272D666E 		.ascii	"'-fno-trapv' '-mcpu=cortex-m0' '-mthumb' '-g' '-O3'"
  141      6F2D7472 
  141      61707627 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 10
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 10
 
 
  141      20272D6D 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
   32:Generated_Source\PSoC4/Hibernate_LED_PM.c **** *
   33:Generated_Source\PSoC4/Hibernate_LED_PM.c **** * \return 
   34:Generated_Source\PSoC4/Hibernate_LED_PM.c **** *  None 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 11
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 11
 
 
   35:Generated_Source\PSoC4/Hibernate_LED_PM.c **** *  
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  181              	Hibernate_LED_Wakeup:
  182              	.LFB1:
   62:Generated_Source\PSoC4/Hibernate_LED_PM.c **** 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 12
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 12
 
 
   63:Generated_Source\PSoC4/Hibernate_LED_PM.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  203              		.bss
  204              		.align	2
  205              		.set	.LANCHOR0,. + 0
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 13
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 13
 
 
  206              		.type	Hibernate_LED_backup, %object
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  258 0058 07       		.byte	0x7
  259 0059 C9000000 		.4byte	.LASF7
  260 005d 03       		.uleb128 0x3
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 14
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 14
 
 
  261 005e 04       		.byte	0x4
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  315 00c9 00       		.byte	0
  316 00ca 08       		.uleb128 0x8
  317 00cb CA010000 		.4byte	.LASF17
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 15
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 15
 
 
  318 00cf 03       		.byte	0x3
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  372 0018 3E       		.uleb128 0x3e
  373 0019 0B       		.uleb128 0xb
  374 001a 03       		.uleb128 0x3
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 16
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 16
 
 
  375 001b 0E       		.uleb128 0xe
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  429 0051 3B       		.uleb128 0x3b
  430 0052 0B       		.uleb128 0xb
  431 0053 49       		.uleb128 0x49
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 17
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 17
 
 
  432 0054 13       		.uleb128 0x13
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  486 008b 00       		.byte	0
  487 008c 00       		.byte	0
  488 008d 00       		.byte	0
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 18
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 18
 
 
  489              		.section	.debug_aranges,"",%progbits
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  524      7400
  525              	.LASF1:
  526 0067 756E7369 		.ascii	"unsigned char\000"
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 19
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 19
 
 
  526      676E6564 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 1
  548 010c 63686172 		.ascii	"char\000"
  548      00
  549              	.LASF2:
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\cczoKuId.s 			page 20
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccWwObce.s 			page 20
 
 
  550 0111 73686F72 		.ascii	"short int\000"

@@ -185,6 +185,8 @@ static void ClockSetup(void)
 	/* Setup phase aligned clocks */
 	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL0, 0x00000200u);
 	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF40u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL1, 0x00008A00u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF41u);
 
 	/* CYDEV_CLK_IMO_CONFIG Starting address: CYDEV_CLK_IMO_CONFIG */
 	CY_SET_XTND_REG32((void CYFAR *)(CYREG_CLK_IMO_CONFIG), 0xA6000000u);
@@ -194,6 +196,9 @@ static void ClockSetup(void)
 
 	/* CYDEV_PERI_PCLK_CTL6 Starting address: CYDEV_PERI_PCLK_CTL6 */
 	CY_SET_XTND_REG32((void CYFAR *)(CYREG_PERI_PCLK_CTL6), 0x00000040u);
+
+	/* CYDEV_PERI_PCLK_CTL1 Starting address: CYDEV_PERI_PCLK_CTL1 */
+	CY_SET_XTND_REG32((void CYFAR *)(CYREG_PERI_PCLK_CTL1), 0x00000041u);
 
 	CY_SET_XTND_REG32((void CYFAR *)(CYREG_WDT_CONFIG), 0x40000000u);
 	/* Set Flash Cycles based on newly configured 16.00MHz HFCLK. */
@@ -312,9 +317,13 @@ void cyfitter_cfg(void)
 
 		/* HSIOM Starting address: CYDEV_HSIOM_BASE */
 		CY_SET_XTND_REG32((void CYFAR *)(CYDEV_HSIOM_BASE), 0xEE000000u);
+		CY_SET_XTND_REG32((void CYFAR *)(CYREG_HSIOM_PORT_SEL1), 0x00990000u);
 
 		/* UDB_PA_0 Starting address: CYDEV_UDB_PA0_BASE */
 		CY_SET_XTND_REG32((void CYFAR *)(CYDEV_UDB_PA0_BASE), 0x00990000u);
+
+		/* UDB_PA_1 Starting address: CYDEV_UDB_PA1_BASE */
+		CY_SET_XTND_REG32((void CYFAR *)(CYDEV_UDB_PA1_BASE), 0x00990000u);
 
 		/* UDB_PA_2 Starting address: CYDEV_UDB_PA2_BASE */
 		CY_SET_XTND_REG32((void CYFAR *)(CYDEV_UDB_PA2_BASE), 0x00990000u);
@@ -333,6 +342,11 @@ void cyfitter_cfg(void)
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
 	/* IOPINS0_0 Starting address: CYDEV_GPIO_PRT0_BASE */
 	CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT0_PC), 0x00D80000u);
+
+	/* IOPINS0_1 Starting address: CYDEV_GPIO_PRT1_BASE */
+	CY_SET_XTND_REG32((void CYFAR *)(CYDEV_GPIO_PRT1_BASE), 0x00000020u);
+	CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT1_PC), 0x00031000u);
+	CY_SET_XTND_REG32((void CYFAR *)(CYREG_GPIO_PRT1_PC2), 0x00000020u);
 
 	/* IOPINS0_2 Starting address: CYDEV_GPIO_PRT2_BASE */
 	CY_SET_XTND_REG32((void CYFAR *)(CYDEV_GPIO_PRT2_BASE), 0x000000C0u);

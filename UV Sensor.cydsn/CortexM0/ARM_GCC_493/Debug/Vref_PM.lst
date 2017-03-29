@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,21 +16,21 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   13              		.file	"Vref_PM.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.profile.1813baa3,"",%progbits
+  16              		.section	.gnu.lto_.profile.183f1dc3,"",%progbits
   17 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006\0166\000\000\212\000\027"
   17      60606061 
   17      80004606 
   17      0E360000 
   17      8A0017
   18              		.text
-  19              		.section	.gnu.lto_.jmpfuncs.1813baa3,"",%progbits
+  19              		.section	.gnu.lto_.jmpfuncs.183f1dc3,"",%progbits
   20 0000 789C6366 		.ascii	"x\234cf\300\0168\2404\023\024\003\000\0018\000\020"
   20      C00E38A0 
   20      34131403 
   20      00013800 
   20      10
   21              		.text
-  22              		.section	.gnu.lto_.inline.1813baa3,"",%progbits
+  22              		.section	.gnu.lto_.inline.183f1dc3,"",%progbits
   23 0000 789C6366 		.ascii	"x\234cf\300\0164\2404\023\003\003+\013#\003\023\313"
   23      C00E34A0 
   23      34130303 
@@ -42,14 +42,14 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   24      00471603 
   24      5C
   25              		.text
-  26              		.section	.gnu.lto_.pureconst.1813baa3,"",%progbits
+  26              		.section	.gnu.lto_.pureconst.183f1dc3,"",%progbits
   27 0000 789C6366 		.ascii	"x\234cf```e\200\000&\006)&)\000\000\373\000A"
   27      60606065 
   27      80002606 
   27      29262900 
   27      00FB0041 
   28              		.text
-  29              		.section	.gnu.lto_Vref_Sleep.1813baa3,"",%progbits
+  29              		.section	.gnu.lto_Vref_Sleep.183f1dc3,"",%progbits
   30 0000 789C654F 		.ascii	"x\234eO=HBQ\024>\337yO\223\\\242\321!\210\006\227lj"
   30      3D484251 
   30      143EDF79 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   31 0017 6E69680A 		.ascii	"nih\012\204\240I\220\260\327\230$5\212\357\305+$\250"
   31      84A04990 
   31      B0D79824 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 2
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 2
 
 
   31      358AEFC5 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   42      DB9C65EF 
   42      43F1990A 
   43 00fe E5410149 		.ascii	"\345A\001I\234)B\331\265\013\333\347\336P^\2429\243"
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 3
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 3
 
 
   43      9C2942D9 
@@ -140,7 +140,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   46      FD02AECA 
   46      7F92
   47              		.text
-  48              		.section	.gnu.lto_Vref_Wakeup.1813baa3,"",%progbits
+  48              		.section	.gnu.lto_Vref_Wakeup.183f1dc3,"",%progbits
   49 0000 789C6366 		.ascii	"x\234cf\300\004R@l\315\310\300\240\014\244\031\231\031"
   49      C0045240 
   49      6CCDC8C0 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   55      626C
   56 0082 DAF6F1EA 		.ascii	"\332\366\361\352Cv\220\236\357L +\347]\356[\307T\373"
   56      4376909E 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 4
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 4
 
 
   56      EF4C202B 
@@ -235,10 +235,10 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   67 0149 4B660000 		.ascii	"Kf\000\000\356>}\002"
   67      EE3E7D02 
   68              		.text
-  69              		.section	.gnu.lto_.symbol_nodes.1813baa3,"",%progbits
+  69              		.section	.gnu.lto_.symbol_nodes.183f1dc3,"",%progbits
   70 0000 789C6366 		.ascii	"x\234cf``\320d\200\002&\306z\006\206\011\347\030\030"
   70      6060D064 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 5
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 5
 
 
   70      800226C6 
@@ -252,7 +252,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   72 0026 2CCC0000 		.ascii	",\314\000\000\310\"\011\240"
   72      C82209A0 
   73              		.text
-  74              		.section	.gnu.lto_.refs.1813baa3,"",%progbits
+  74              		.section	.gnu.lto_.refs.183f1dc3,"",%progbits
   75 0000 789C6366 		.ascii	"x\234cf``\340f\200\000F\006FF&F& \311\000\000\001l\000"
   75      6060E066 
   75      80004606 
@@ -260,7 +260,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   75      2620C900 
   76 0018 19       		.ascii	"\031"
   77              		.text
-  78              		.section	.gnu.lto_.decls.1813baa3,"",%progbits
+  78              		.section	.gnu.lto_.decls.183f1dc3,"",%progbits
   79 0000 789C8D54 		.ascii	"x\234\215TmHSa\024\276\347\336}y]\032\011\025\376\010"
   79      6D485361 
   79      14BEE7DE 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   86 0082 D4614E2A 		.ascii	"\324aN*\232\037\355\031\332DX\333\035\346y\302\273s"
   86      9A1FED19 
   86      DA4458DB 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 6
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 6
 
 
   86      1DE679C2 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   97      55FEEED6 
   97      CFA63816 
   97      D2
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 7
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 7
 
 
   98 0163 0948C457 		.ascii	"\011H\304W\274g\304>#\202^l\302s\006\007G]\373l$\013"
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  109 0235 9299F4B4 		.ascii	"\222\231\364\264\012\300\213\240\256h{h\246\310l>\017"
  109      0AC08BA0 
  109      AE687B68 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 8
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 8
 
 
  109      A6C86C3E 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  120      0D
  121 0319 CCCFDE9D 		.ascii	"\314\317\336\235\263/\317\220o\314=\230\227\223\253"
  121      B32FCF90 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 9
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 9
 
 
  121      6FCC3D98 
@@ -499,7 +499,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  124      C63FAB25 
  124      AA13
  125              		.text
- 126              		.section	.gnu.lto_.symtab.1813baa3,"",%progbits
+ 126              		.section	.gnu.lto_.symtab.183f1dc3,"",%progbits
  127 0000 56726566 		.ascii	"Vref_Sleep\000\000\000\000\000\000\000\000\000\000\000"
  127      5F536C65 
  127      65700000 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  140              		.code	16
  141              		.thumb_func
  142              		.type	Vref_Sleep, %function
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 10
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 10
 
 
  143              	Vref_Sleep:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   48:Generated_Source\PSoC4/Vref_PM.c ****     #else
   49:Generated_Source\PSoC4/Vref_PM.c ****         #if (CY_PSOC4_4200L)
   50:Generated_Source\PSoC4/Vref_PM.c ****             /* Save the regulator state and put the PHY into suspend mode */
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 11
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 11
 
 
   51:Generated_Source\PSoC4/Vref_PM.c ****             Vref_backup.usbState = Vref_CR1_REG;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
   80:Generated_Source\PSoC4/Vref_PM.c **** void Vref_Wakeup(void)
   81:Generated_Source\PSoC4/Vref_PM.c **** {
  174              		.loc 1 81 0
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 12
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 12
 
 
  175              		.cfi_startproc
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  212 000c 29010000 		.4byte	.LASF20
  213 0010 01       		.byte	0x1
  214 0011 FE000000 		.4byte	.LASF21
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 13
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 13
 
 
  215 0015 0F000000 		.4byte	.LASF22
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  269 007f 08       		.byte	0x8
  270 0080 04       		.byte	0x4
  271 0081 98000000 		.4byte	.LASF10
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 14
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 14
 
 
  272 0085 02       		.uleb128 0x2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  326 00f5 01       		.uleb128 0x1
  327 00f6 9C       		.byte	0x9c
  328 00f7 0A       		.uleb128 0xa
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 15
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 15
 
 
  329 00f8 9F000000 		.4byte	.LASF23
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  383 002c 03       		.uleb128 0x3
  384 002d 0E       		.uleb128 0xe
  385 002e 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 16
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 16
 
 
  386 002f 0B       		.uleb128 0xb
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  440 0065 00       		.byte	0
  441 0066 09       		.uleb128 0x9
  442 0067 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 17
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 17
 
 
  443 0068 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  497 0004 14000000 		.4byte	.LFE0
  498 0008 00000000 		.4byte	.LFB1
  499 000c 14000000 		.4byte	.LFE1
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 18
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 18
 
 
  500 0010 00000000 		.4byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  523      6C6500
  524              	.LASF23:
  525 009f 56726566 		.ascii	"Vref_backup\000"
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 19
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 19
 
 
  525      5F626163 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 1
  547      66756E63 
  547      74696F6E 
  547      2D736563 
-ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccot02yt.s 			page 20
+ARM GAS  C:\Users\IYANG~1.DES\AppData\Local\Temp\ccEjUtAc.s 			page 20
 
 
  547      74696F6E 

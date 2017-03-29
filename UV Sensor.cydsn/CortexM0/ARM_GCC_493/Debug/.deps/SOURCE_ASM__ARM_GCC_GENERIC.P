@@ -1,8 +1,8 @@
-D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/CortexM0/ARM_GCC_493/Debug/CyBootAsmGnu.o : D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/Generated_Source/PSoC4/cyfittergnu.inc 
+D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/CortexM0/ARM_GCC_493/Debug/CyBootAsmGnu.o : D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/Generated_Source/PSoC4/cyfittergnu.inc 
 
-D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
 
-D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
+D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
 
-D:/Dropbox/blog/UV\ sensor/SW/Day009_Dynamic_Broadcaster/Dynamic\ Broadcaster/Dynamic\ Broadcaster.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
+D:/Dropbox/blog/UV\ sensor/SW/UVSensorCypress/UV\ Sensor.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
 

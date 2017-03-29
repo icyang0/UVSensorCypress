@@ -123,8 +123,8 @@
 #define CYBLE_GAP_ROLE_BROADCASTER                  (0u != (CYBLE_GAP_ROLE & CYBLE_GAP_BROADCASTER))
 
 #if(CYBLE_GAP_ROLE_PERIPHERAL || CYBLE_GAP_ROLE_BROADCASTER)
-    #define CYBLE_FAST_ADV_INT_MIN                  (0x0640u)
-    #define CYBLE_FAST_ADV_INT_MAX                  (0x0640u)
+    #define CYBLE_FAST_ADV_INT_MIN                  (0x0320u)
+    #define CYBLE_FAST_ADV_INT_MAX                  (0x0320u)
     #define CYBLE_FAST_ADV_TIMEOUT                  (0x0000u)
     #define CYBLE_SLOW_ADV_ENABLED                  (0x00u)
     #define CYBLE_SLOW_ADV_INT_MIN                  (0x0640u)

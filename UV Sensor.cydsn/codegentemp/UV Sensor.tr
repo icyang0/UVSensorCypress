@@ -16,17 +16,19 @@
 ##################################################################### 
                     1::Clock Frequency Summary
 ===================================================================== 
-Number of clocks: 10
-Clock: ADC_intClock       | N/A  | Target: 5.33 MHz   | 
-Clock: ADC_intClock(FFB)  | N/A  | Target: 5.33 MHz   | 
-Clock: CyECO              | N/A  | Target: 24.00 MHz  | 
-Clock: CyHFCLK            | N/A  | Target: 16.00 MHz  | 
-Clock: CyILO              | N/A  | Target: 0.03 MHz   | 
-Clock: CyIMO              | N/A  | Target: 16.00 MHz  | 
-Clock: CyLFCLK            | N/A  | Target: 0.03 MHz   | 
-Clock: CyRouted1          | N/A  | Target: 16.00 MHz  | 
-Clock: CySYSCLK           | N/A  | Target: 16.00 MHz  | 
-Clock: CyWCO              | N/A  | Target: 0.03 MHz   | 
+Number of clocks: 12
+Clock: ADC_intClock        | N/A  | Target: 5.33 MHz   | 
+Clock: ADC_intClock(FFB)   | N/A  | Target: 5.33 MHz   | 
+Clock: CyECO               | N/A  | Target: 24.00 MHz  | 
+Clock: CyHFCLK             | N/A  | Target: 16.00 MHz  | 
+Clock: CyILO               | N/A  | Target: 0.03 MHz   | 
+Clock: CyIMO               | N/A  | Target: 16.00 MHz  | 
+Clock: CyLFCLK             | N/A  | Target: 0.03 MHz   | 
+Clock: CyRouted1           | N/A  | Target: 16.00 MHz  | 
+Clock: CySYSCLK            | N/A  | Target: 16.00 MHz  | 
+Clock: CyWCO               | N/A  | Target: 0.03 MHz   | 
+Clock: UART_1_SCBCLK       | N/A  | Target: 0.12 MHz   | 
+Clock: UART_1_SCBCLK(FFB)  | N/A  | Target: 0.12 MHz   | 
 
  =====================================================================
                     End of Clock Frequency Summary
