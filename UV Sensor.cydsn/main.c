@@ -55,7 +55,8 @@ extern CYBLE_GAPP_DISC_MODE_INFO_T cyBle_discoveryModeInfo;
 /* ADV payload dta structure */    
 #define advPayload                                  (cyBle_discoveryModeInfo.advData->advData) 
     
-#define MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX    (23u) /* index of the dynamic data in the ADV packet */
+#define OUT0                (23u) /* index of the dynamic data in the ADV packet */
+#define OUT1                (24u) /* index of the dynamic data in the ADV packet */
 #define LOOP_DELAY                                  (1u)  /* How often would you like to update the ADV payload */
     
 #define MIN_PAYLOAD_VALUE                           (0u)
@@ -174,11 +175,11 @@ void InitializeSystem(void)
 
         /* Instance ID - randomly created */
         cyBle_discoveryData.advData[23] = 0x77;     /* BID[0] */
-        cyBle_discoveryData.advData[24] = 0x01;     /* BID[1] */
-        cyBle_discoveryData.advData[25] = 0x01;     /* BID[2] */
-        cyBle_discoveryData.advData[26] = 0x01;     /* BID[3] */
-        cyBle_discoveryData.advData[27] = 0x01;     /* BID[4] */
-        cyBle_discoveryData.advData[28] = 0x01;     /* BID[5] */
+        cyBle_discoveryData.advData[24] = 0x66;     /* BID[1] */
+        cyBle_discoveryData.advData[25] = 0x00;     /* BID[2] */
+        cyBle_discoveryData.advData[26] = 0x00;     /* BID[3] */
+        cyBle_discoveryData.advData[27] = 0x00;     /* BID[4] */
+        cyBle_discoveryData.advData[28] = 0x00;     /* BID[5] */
         
         cyBle_discoveryData.advData[29] = 0x00;     /* Reserved */
         cyBle_discoveryData.advData[30] = 0x00;     /* Reserved */
@@ -293,9 +294,9 @@ void DynamicADVPayloadUpdate(void)
         if(count >= LOOP_DELAY)
         {
             /* Dynamic payload will be continuously updated */
-            advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = dynamicPayload++;
+            advPayload[OUT0] = dynamicPayload++;
             
-            //advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = readValue;
+            //advPayload[OUT0] = readValue;
             
             if(dynamicPayload == MAX_PAYLOAD_VALUE)
             {
@@ -374,6 +375,7 @@ void ReadUVSensor(void)
 	uint32 sarControlReg;
     char str[5];
     int8 scoop;
+    int8 froop;
 
     //batteryTimer = BATTERY_TIMEOUT;
         
@@ -395,18 +397,29 @@ void ReadUVSensor(void)
     	ADC_IsEndConversion(ADC_WAIT_FOR_RESULT);
 
         adcResult = ADC_GetResult16(ADC_CHANNEL);
-        temp = adcResult/8;
+        //temp = adcResult/8;
+        temp = adcResult;
+        
+        
+        
+        //scoop = ((temp - 0.99) * (15.0 - 0) / (2.8 - 0.99)) + 0;
         scoop = temp;
+        froop = temp >> 8 ;
         
         itoa(adcResult, str, 10);
+        //itoa(scoop, str, 10);
         UART_1_UartPutString(str);
-        CyDelay(25);  
+        CyDelay(5);  
         UART_1_UartPutChar('\n');
-        CyDelay(25);  
+        CyDelay(5);  
         UART_1_UartPutChar('\r');
-        CyDelay(25);  
+        CyDelay(5);  
         
-        advPayload[MANUFACTURER_SPECIFIC_DYNAMIC_DATA_INDEX] = scoop;
+        
+        
+        advPayload[OUT1] = scoop;
+        //advPayload[OUT0] = (scoop)&(0x000F);
+        advPayload[OUT0] = froop;
         CyBle_GapUpdateAdvData(cyBle_discoveryModeInfo.advData, cyBle_discoveryModeInfo.scanRspData);
         
         
