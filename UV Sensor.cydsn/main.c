@@ -1,6 +1,5 @@
 /*******************************************************************************
-CURRENTLY A STABLE STATE
-READS VALUIES WELL
+NOW TRING TO IMPLEMENT THE WATCHDOG
 *
 ********************************************************************************
 
@@ -111,6 +110,9 @@ int main()
     /* Three simple APIs that showcases dynamic ADV payload update */ 
     while(1) 
     { 
+        
+     
+
         CyDelay(252);  
         ReadUVSensor();
   
@@ -213,7 +215,6 @@ void InitializeSystem(void)
     
     
     UART_1_Start();
-    
     
     
     

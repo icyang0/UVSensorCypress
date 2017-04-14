@@ -1,8 +1,11 @@
---------------- Build Started: 04/13/2017 02:07:41 Project: UV Sensor, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+--------------- Build Started: 04/14/2017 01:58:17 Project: UV Sensor, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
 The code generation step is up to date.
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -finline-functions -O3 -flto -ffat-lto-objects -c main.c -o .\CortexM0\ARM_GCC_493\Debug\main.o
+main.c:7:1: warning: "/*" within comment [-Wcomment]
+ /*******************************************************************************
+ ^
 main.c: In function 'ReadUVSensor':
-main.c:376:10: warning: unused variable 'str' [-Wunused-variable]
+main.c:384:10: warning: unused variable 'str' [-Wunused-variable]
      char str[5];
           ^
 arm-none-eabi-ar.exe -rs ".\CortexM0\ARM_GCC_493\Debug\UV Sensor.a" .\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_493\Debug\Advertising_LED.o .\CortexM0\ARM_GCC_493\Debug\Advertising_LED_PM.o .\CortexM0\ARM_GCC_493\Debug\Wakeup_Interrupt.o .\CortexM0\ARM_GCC_493\Debug\BLE.o .\CortexM0\ARM_GCC_493\Debug\BLE_gatt.o .\CortexM0\ARM_GCC_493\Debug\BLE_eventHandler.o .\CortexM0\ARM_GCC_493\Debug\BLE_HAL_INT.o .\CortexM0\ARM_GCC_493\Debug\BLE_HAL_PVT.o .\CortexM0\ARM_GCC_493\Debug\Hibernate_LED.o .\CortexM0\ARM_GCC_493\Debug\Hibernate_LED_PM.o .\CortexM0\ARM_GCC_493\Debug\Wakeup_SW.o .\CortexM0\ARM_GCC_493\Debug\Wakeup_SW_PM.o .\CortexM0\ARM_GCC_493\Debug\BLE_bless_isr.o .\CortexM0\ARM_GCC_493\Debug\CyFlash.o .\CortexM0\ARM_GCC_493\Debug\CyLib.o .\CortexM0\ARM_GCC_493\Debug\cyPm.o .\CortexM0\ARM_GCC_493\Debug\cyutils.o .\CortexM0\ARM_GCC_493\Debug\CyLFClk.o .\CortexM0\ARM_GCC_493\Debug\ADC.o .\CortexM0\ARM_GCC_493\Debug\ADC_PM.o .\CortexM0\ARM_GCC_493\Debug\ADC_INT.o .\CortexM0\ARM_GCC_493\Debug\Vref.o .\CortexM0\ARM_GCC_493\Debug\Vref_PM.o .\CortexM0\ARM_GCC_493\Debug\ADC_IRQ.o .\CortexM0\ARM_GCC_493\Debug\ADC_intClock.o .\CortexM0\ARM_GCC_493\Debug\UART_1.o .\CortexM0\ARM_GCC_493\Debug\UART_1_SPI_UART.o .\CortexM0\ARM_GCC_493\Debug\UART_1_SPI_UART_INT.o .\CortexM0\ARM_GCC_493\Debug\UART_1_PM.o .\CortexM0\ARM_GCC_493\Debug\UART_1_UART.o .\CortexM0\ARM_GCC_493\Debug\UART_1_BOOT.o .\CortexM0\ARM_GCC_493\Debug\UART_1_UART_BOOT.o .\CortexM0\ARM_GCC_493\Debug\UART_1_SCBCLK.o .\CortexM0\ARM_GCC_493\Debug\UART_1_tx.o .\CortexM0\ARM_GCC_493\Debug\UART_1_tx_PM.o .\CortexM0\ARM_GCC_493\Debug\UART_1_rx.o .\CortexM0\ARM_GCC_493\Debug\UART_1_rx_PM.o .\CortexM0\ARM_GCC_493\Debug\CyBootAsmGnu.o
@@ -12,4 +15,4 @@ cyelftool.exe -C "D:\Dropbox\blog\UV sensor\SW\UVSensorCypress\UV Sensor.cydsn\C
 cyelftool.exe -S "D:\Dropbox\blog\UV sensor\SW\UVSensorCypress\UV Sensor.cydsn\CortexM0\ARM_GCC_493\Debug\UV Sensor.elf"
 Flash used: 78879 of 131072 bytes (60.2 %).
 SRAM used: 10456 of 16384 bytes (63.8 %). Stack: 2048 bytes. Heap: 0 bytes.
---------------- Build Succeeded: 04/13/2017 02:07:42 ---------------
+--------------- Build Succeeded: 04/14/2017 01:58:18 ---------------
