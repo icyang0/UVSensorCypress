@@ -1,4 +1,11 @@
 /*******************************************************************************
+CURRENTLY A STABLE STATE
+READS VALUIES WELL
+*
+********************************************************************************
+
+
+/*******************************************************************************
 * File Name: main.c
 *
 * Version: 1.0
@@ -406,14 +413,14 @@ void ReadUVSensor(void)
         scoop = temp;
         froop = temp >> 8 ;
         
-        itoa(adcResult, str, 10);
+    //    itoa(adcResult, str, 10);
         //itoa(scoop, str, 10);
-        UART_1_UartPutString(str);
-        CyDelay(5);  
-        UART_1_UartPutChar('\n');
-        CyDelay(5);  
-        UART_1_UartPutChar('\r');
-        CyDelay(5);  
+   //     UART_1_UartPutString(str);
+  //      CyDelay(5);  
+  //      UART_1_UartPutChar('\n');
+  //      CyDelay(5);  
+  //      UART_1_UartPutChar('\r');
+  //      CyDelay(5);  
         
         
         
