@@ -2,7 +2,7 @@
 --	Conversion of UV Sensor.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Apr 14 01:54:40 2017
+--	Sat Jul 08 13:37:20 2017
 --
 
 USE cypress.cypress.all;

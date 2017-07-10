@@ -1,7 +1,14 @@
 /*******************************************************************************
 NOW TRING TO IMPLEMENT THE WATCHDOG
 *
-********************************************************************************
+*
+*
+*
+* NOTES:
+    1. to implement watchdog, go into topDesign and turn on timeout for the BLE element
+    2. the pin is 3[0] for input
+    3. it's showing results on UART
+********************************************************************************/
 
 
 /*******************************************************************************
@@ -35,6 +42,7 @@ NOW TRING TO IMPLEMENT THE WATCHDOG
 *******************************************************************************/
 #include <stdlib.h>
 #include <Project.h>
+#include <stdio.h>
 
 /***************************************
 *        API Constants
@@ -381,9 +389,10 @@ void ReadUVSensor(void)
 	int16 adcResult;
     int16 temp;
 	uint32 sarControlReg;
-    char str[5];
+    char str[10];
     int8 scoop;
     int8 froop;
+    float test = 0;
 
     //batteryTimer = BATTERY_TIMEOUT;
         
@@ -408,20 +417,22 @@ void ReadUVSensor(void)
         //temp = adcResult/8;
         temp = adcResult;
         
-        
+        test = adcResult;
         
         //scoop = ((temp - 0.99) * (15.0 - 0) / (2.8 - 0.99)) + 0;
         scoop = temp;
         froop = temp >> 8 ;
         
-    //    itoa(adcResult, str, 10);
-        //itoa(scoop, str, 10);
-   //     UART_1_UartPutString(str);
-  //      CyDelay(5);  
-  //      UART_1_UartPutChar('\n');
-  //      CyDelay(5);  
-  //      UART_1_UartPutChar('\r');
-  //      CyDelay(5);  
+        
+        
+        //itoa(adcResult, str, 10);
+        //sprintf(str, "%f", 12.64); 
+        UART_1_UartPutString(str);
+        CyDelay(5);  
+        UART_1_UartPutChar('\n');
+        CyDelay(5);  
+        UART_1_UartPutChar('\r');
+        CyDelay(5);  
         
         
         

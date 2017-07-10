@@ -100,7 +100,7 @@ CYBLE_GAPP_DISC_MODE_INFO_T cyBle_discoveryModeInfo =
     &cyBle_discoveryParam,
     &cyBle_discoveryData,
     &cyBle_scanRspData,
-    0x000Au,    /* uint16 advTo */
+    0x0000u,    /* uint16 advTo */
 };
 
 
